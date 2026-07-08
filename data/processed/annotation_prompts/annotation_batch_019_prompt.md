@@ -1,0 +1,78 @@
+# AI-Assisted Sentiment Labeling Prompt - annotation_batch_019
+
+Anda membantu memberi label sentimen publik terhadap Program Makan Bergizi Gratis (MBG) pada teks media sosial.
+
+Gunakan hanya label berikut: `positif`, `negatif`, `netral`.
+
+Aturan penting:
+- Labeli sentimen terhadap Program MBG, bukan terhadap tokoh politik kecuali langsung terkait MBG.
+- Jika teks memuat sentimen positif dan negatif, pilih sentimen yang paling dominan.
+- Jika teks berupa informasi, berita, pertanyaan tanpa polaritas jelas, ambigu, atau Anda tidak yakin, gunakan `netral`.
+- Sarkasme diberi label sesuai makna tersirat.
+- Jangan mengubah `sample_id`.
+- Jangan menambah baris.
+- Jangan menghapus baris.
+- Jangan mengisi label selain `positif`, `negatif`, atau `netral`.
+
+Kembalikan jawaban hanya sebagai CSV block dengan kolom:
+
+```csv
+sample_id,label,labeling_notes
+```
+
+Isi `labeling_notes` secara singkat jika perlu. Jika tidak perlu catatan, kosongkan.
+
+## Rows
+
+| sample_id | clean_text |
+| --- | --- |
+| label_sample_0901 | program mbg sudah lebih hari berbagai masalah muncul termasuk usulan tapi kok wapres gibran tak nampak padahal dia rajin amat saat uji coba saya sih setuju kalau gibran mengundurkan diri sebagai wapres karena tugas itu berat tak pantas untuk kemampuan dia tahu dirilah |
+| label_sample_0902 | bingung bingung bingung mau diumpetin dimana lagi mukaku lebih baik mana program mbg bila dibanding apa yg pernah dengungkan saat kampanye pilpres yg berjanji untuk generasi penerus bangsa nkriðÿ ðÿ yg salah nya program pendidikan gratis |
+| label_sample_0903 | menurutku ga melulu soal mapan tapi siap apa nggak mau apa nggak di desa banyak yang miskin tapi kali niat punya anak ya di usahakan makan bergizi ga harus magal ke kebun petik bayam juga bergizi cek kandungan ke puskesmas gratis yang di video mah ibu nya aja ndablek |
+| label_sample_0904 | pangdam iv diponegoro mayjen tni deddy suryadi meninjau program makan bergizi gratis mbg di kota semarang pada senin februari suaramerdeka suaramerdekacom pangdam pangdam diponegoro kotasemarang semarang programmakanbergizigratis |
+| label_sample_0905 | pling parah tmen gue yg kelas menengah msih banggaâ in entu program mbg buat anaknya trus banggain klo entu orng mnta bkin sistem thr buat para ojol yg setauku dri dlu jga udh ad sistem thr cmiiw giliran gue bhas soal krugianâ sistem lainnya dia nutup telinga anjingï x f |
+| label_sample_0906 | apapun masalah mu jogetin aja diphk jogetin aja bbm dipalsu jogetin aja dolar melambung jogetin aja saham anjlok jogetin aja emas dipalsukan jogetin aja keracunan mbg jogetin aja harga sembako melambung jogetin aja koruptor merajalela jogetin aja ndasmu |
+| label_sample_0907 | jelajahi perjuangan arnold ronsumbre ketika makan bergizi gratis menjadi wujud nyata kepedulian pemerintah untuk papua temukan bagaimana program ini mengubah kehidupan banyak orang dengan membaca selengkapnya di sini |
+| label_sample_0908 | biasalah proyek mbg dapat kelebihan bayar bukan tujuan cerdas kan bangsa jokowi sangat licik untuk dapat kan kelebihan bayar seperti bansos trilyun di pake hang trilyun jadi mbg di mata jokowi seperti bansos trilyun keluar hanya t |
+| label_sample_0909 | knp diancam dapat sanksi tampilan mbg itu memang publik hrs lihat mata publik salah penilai dari benar tdk nya berhasil atau tdk seluruh program yg telah dijanjikan jgn seolah dipaksakan memaksa publik mengakui bahwa semua baik termasuk siswa sebagai objek kasihan mereka |
+| label_sample_0910 | oiya pak saya tunggu program pendidikan gratisnya kalau bisa fokus ke pendidikan gratis dulu lah pak baru makan bergizi gratis jadikan sdmnya produktif biar bisa memberi makan bergizi untuk keluarganya indonesiagelap |
+| label_sample_0911 | ya siapa suruh melihat dr satu aspek saja aplg satu berita saja tinggal di telusuri anggaran pendidikan dan mbg ketahuan namanya juga pemerintah suka ngomong a b c dll tp yg penting pelaksanaannya aja kita liat |
+| label_sample_0912 | berarti tweet kuasahukum bahwa mafia tanah itu tidakbenar alias hoaks ya charli termasuk muannas ada tweet charli kalah perkaranya dg pik itu benar apa bohong sprtinya tidak ada putusan perdata thepitnio mbg yg kalahkan charli |
+| label_sample_0913 | dukung makan bergizi gratis koptu abdul babinsa kel bontokio kodim pangkep melaksanakan kegiatan pendampingan makan bergizi gratis bagi siswa siswi sekolah bertempat di sekolah sdn langnga langnga kel bontokio kec minasatene kab pangkep |
+| label_sample_0914 | program ini menargetkan sekitar juta penerima manfaat termasuk anak sekolah ibu hamil dan ibu menyusui mbg bertujuan mengatasi masalah gizi buruk dan stunting serta mendukung tumbuh kembang anak anak dan kesehatan ibu |
+| label_sample_0915 | sumpah deh dia tu tau ga si lebih baik harga bahan pokok yg dimurahin drpd mbg ga jelas itu emangnya yg butuh makan cm anakâ doang org dewasa jg butuh makan yg bergizi cok oke fokusnya ke anak tp dg harga pangan yg murah kan ortunya mampu beli anak mau apa aja bs diusahain |
+| label_sample_0916 | lama gw ngerasa negara ini emang sebenernya mau depopulasi dengan cara ngebunuhin yang existing yg helpless dibuat makin susah dan dibrainrot dengan normalisasi standar sangat rendah ngedorong yang mau cabut ke ln mbg dan sebagainya cuma morfin |
+| label_sample_0917 | anggaran mbg t untuk tahun dilaksanakan bertahap sampai saat ini setahuku pemerintah masih berusaha memperluas wilayah layanan mbg dari target awal lihat nanti bulan juni juli apakah anggaran t bisa terserap semua |
+| label_sample_0918 | setuju bang gw liat juga dulu waktu awal sty latih timnas kayanya strateginya ga bagus bgt atau juga ngga jelek juga cuma bagusnya itu makin lama makin improve strateginya mungkin faktor dari tim analisis timnas atau juga faktor ngedatengin pemain berkualitas |
+| label_sample_0919 | kepala kantor komunikasi kepresidenan hasan nasbi menyatakan bahwa organisasi papua merdeka opm akan berhadapan dengan aparat tni dan polri jika melakukan ancaman terhadap sekolah di papua yang menerima manfaat program makan bergizi gratis mbg |
+| label_sample_0920 | kombinasi org ga napak tanah kaya dari lahir ambisius ga realistis dan boomer sejati memang mematikan terlalu muluk selalu aja bikin ke tidak bijakan yang butuh anggaran gede tapi mesti hasilnya mengecewakan percaya deh mbg aja kacau eksekusinya buang pajak rakyat |
+| label_sample_0921 | mbg itu buat generasi masa depan bangsa mau kuliah murah dari sekian solusinya ya daring proses belajar mengajarnya jadi nggak tepatlah kalau teriak kami butuh pendidikan bukan perut kenyang itu orasi orang kebanyakan minum obat tidur |
+| label_sample_0922 | modus pengusaha adalah mengalihkan isu masa ga tau pola mereka isu yang dialihkan adalah kekacauan mbg kavling pagar laut kegagalan ikn semua berawal dari munculnya jokowi yang dibackup prabowo kemudian diambil luhut lalu mereka pelihara anjing buzzer di medsos |
+| label_sample_0923 | iya ada yang bisa dibela kebijakan prabowo kayak makan siang gratis buat anak sekolah sama naik gaji bantu rakyat kecil harga tiket pesawat turun pas libur juga oke buat traveling jokowi meski ada masalah kayak demokrasi bikin ekonomi tumbuh dan infrastruktur maju |
+| label_sample_0924 | calon wakil presiden nomor urut gibran rakabuming raka menanggapi peringatan bank dunia soal program makan siang gratis yang diusungnya bersama prabowo subianto jika terpilih memimpin indonesia gibranrakabuming makansianggratis bankdunia |
+| label_sample_0925 | gengs bagaimana opini kamu soal program makan bergizi gratis mbg sejauh ini mulai bulan ini program mbg bakal memakan biaya sekitar rp triliun rp triliun per bulan jumlah yang besar ya apa kabat pengamat baca lebih lanjut |
+| label_sample_0926 | tapi ya ini mbg fucked up juga from the beginning banyak bgt oknum catering yg nyari duit terus korupsi ini catering yg korupsi bsk kalo mati gw doakan liang lahat nisan atau peti nya bau dan lembab kayak nasi basi selain dari dana yg terlalu dipaksakan yaa |
+| label_sample_0927 | sudaryono wakil menteri pertanian menyatakan bahwa pemerintah telah bekerja sama dengan perusahaan baik dari dalam maupun luar negeri untuk mendatangkan juta ekor sapi indonesiaemas programpresiden presidenprabowo makansianggratis kesehatangratisuntuksemua |
+| label_sample_0928 | yg udah baca kenapa manufacturer ada yg reject susu lokal karena kualitasnya yg lbh rendah dr import ditambah sugar syrup dll yg jdnya murni susu sapi sehingga sekali lagi yg dirugikan adalah konsumen anak kecil yg dpt program mbg sedangkan mentri minum susu yg |
+| label_sample_0929 | pantesab mbg cuma k per anak mending makan paket nasi ayam di ciputat nambah k udah mah kenyang enak pula bingung gue sama kebijakan danantara sampe sah begini mana namanya kaya pinjol ilegal ajg wkkwk strezz |
+| label_sample_0930 | budi sulistiyo dirjen penguatan daya saing produk kelautan dan perikanan menyatakan bahwa kkp siap mendukung program makan bergizi gratis indonesiaemas programpresiden presidenprabowo makansianggratis kesehatangratisuntuksemua |
+| label_sample_0931 | mbg di indonesia sudah menjangkau juta penerima per maret target juta di april program ini tingkatkan kehadiran sekolah pendapatan lokal tapi logistik transparansi masih jadi tantangan dampak gizi belum jelas karena baru mulai januari secara keseluruhan |
+| label_sample_0932 | hindari kejenuhan sppg terapkan menu variatif batang program makan bergizi gratis mbg yang telah diluncurkan dirasakan manfaatnya oleh peserta didik kendati demikian pihak penanggung jawab satuan pelayanan pemenuhan gizi sppg berupaya memberikan menu sehat yang variatif |
+| label_sample_0933 | gapaham sama ego pemerintah how to knock senses ke mereka itu adalah pemborosan sesungguhnya egois banget gue gaterima pokoknya gue vote besar besaran pada tuhan dan pada universe utk hukuman bagi pencetus dan yg ngotot mbg tetap ada |
+| label_sample_0934 | menurut gue kalo emang makan siang gratis bergizi itu ga efektif yaudah batalin aja toh sebelumnya gaada pun ga jadi masalah yang jadi masalah adalah ketika memaksakan program prematur dengan merelakan program yang udah ada efek dominonya jadi meluas kemana mana |
+| label_sample_0935 | sebetulnya apa yg seharusnya pemerintah lakukan untuk membalikan keadaan kalo dari gw mengurangi jumlah kabinet stafsus mengurangi gaji tunjangan pejabat tinggi mengurangi belanja tidak esensial menunda mbg ganti blt stop ikn |
+| label_sample_0936 | setuju belum ada setahun lebih program mbg tp udah banyak dana yang dipangkas gas susah dll gimana buat bertahun kedepannya nanti bcs program mbg itu untuk jangka panjang menurut aku karena bukan dalam waktu bulan atau bulan siswa siswa bisa langsung berprestasi gizi |
+| label_sample_0937 | dengan harapan program ini dapat menumbuhkan ekonomi lokal serta mempercepat pemerataan pembangunan khususnya di pedesaan indonesiaemas programpresiden presidenprabowo makansianggratis kesehatangratisuntuksemu |
+| label_sample_0938 | aparatur sipil negara asn viktor tebai yang menjabat sebagai sekretaris dinas pendidikan kabupaten nabire papua tengah menjadi sorotan setelah menendang seorang siswa yang terlibat dalam aksi demonstrasi menolak program makan bergizi gratis mbg |
+| label_sample_0939 | membantu itu kalo orangtua gausah effort ngapa in terus gizi anak terpenuhi lha iki wong tua ne isih kudu bayar pajak yg tujuannya jg buat makan gratis tapi ning omah isih kudu nyediakan makan bergizi lain dadi double lho ketikanmu dowo tapi raono isine |
+| label_sample_0940 | mana dipaksa target ngurus swasembada buat program mbg tapi kena efisiensi paling gede itu konsepny gmn deh kita survey ke lapangan pake tenaga dan otak juga harus keluarin modal sendiri buat uang jalan dan makan kah |
+| label_sample_0941 | dengan anggaran sebesar itu kenapa tidak untuk kebijakan di sektor lain anggaran untuk pendidikan ataupun kesehatan itu baru yang namanya investasi jangka panjang kalo program makan gak bergizi gak gratis itu jangka pendek |
+| label_sample_0942 | dulu mbg di as itu means tested cuma anak miskin yg dapat gratis yg bikin ada stigma kemiskinan anaknya diolok dsb lah makanya dibuat seragam sekolah tapi ga semua sekolah dapet saya denger dari podcast pak pak dadan keukeuh dg model ini perlu diapresiasi |
+| label_sample_0943 | ketua dewan perwakilan daerah dpd sultan bachtiar najamudin mengusulkan agar anggaran program makan bergizi gratis dibantu dengan zakat atau urunan warga usulan itu disampaikan karena rakyat indonesia dermawan dan suka menyumbang menurut dia dermawan dan suka |
+| label_sample_0944 | menteri umkm maman abdurrahman bersama kepala badan gizi nasional membahas kolaborasi program makan bergizi gratis di jakarta bergerak sesuai arahan presiden prabowo subianto demi indonesia yang lebih sehat dan kuat pastikan umkm kita siap bawa makanan bergizi |
+| label_sample_0945 | pemerintah provinsi papua menargetkan pelaksanaan program mbg dimulai pada april penjabat gubernur papua ramses limbong meminta pemda segera bersiap agar program berjalan dengan lancar untuk kesiapan di papua pelaksanaan mbg akan dimulai secara bertahap setelah lebaran |
+| label_sample_0946 | lah kan nama programnya makan bergizi gratis bukan makan yang penting abis makanya kalo bikin program yg realistis lah giliran dikritik malah disururuh bersyukur karena yg bikin programnya udah mumet kalo kaya gini mah tujuan awal ga tercapai tapi buang anggaran doang malih |
+| label_sample_0947 | inget judul programnya apa liat juga outcome program apa judulnya aja makan bergizi gratis perlu dipastikan dulu harusnya sesuai ga dgn kebutuhan gizi anak kalo judulnya makan siang gratis ga perlu ditanya soal gizinya proper apa ga |
+| label_sample_0948 | kata lucu atlet stunting emang hasil naturalisasi banyak yg stunting emang atlet profesional ga ada program diet selama latihan emang ga dikasih makan seminimal minimalnya mbg gtu kasian amat jadi atlit ga dirawat alesannya kurang gizi |
+| label_sample_0949 | yah mungkin gue bukan guru yang sempurna tapi gue udah ngajarin murid gue yg kelas sd buat melek politik buat sadar itu mbg darimana buat enggak memuja pemerintah dan tetep kritis terhadap mereka karena nanti mereka yang bakal jadi pengganti buat mengkritisi pemerintah |
+| label_sample_0950 | prabowo kntl pemerintah kntl jokowi kntl gibran kntl pertamina kntl mbg kntl aparat kntl koruptor kntl dpr kntl ma kntl pejabat kntl mayor teddy kntl rektor ui kntl kntl danantara kntl kabinet kntl |

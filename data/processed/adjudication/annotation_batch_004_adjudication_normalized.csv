@@ -1,0 +1,14 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label,current_label_normalized,human_label_normalized,final_label_normalized,final_label_source
+label_sample_0155,kok hampir semua kementrian pd ngotot mbg ada apa,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,nada curiga terhadap dorongan kementerian pada MBG,negatif,netral,negatif,negatif,human_label
+label_sample_0159,ompreng penjara mbg,netral,tidak ada polaritas jelas,teks sangat pendek,negatif,asosiasi ompreng penjara bernada merendahkan MBG,negatif,netral,negatif,negatif,human_label
+label_sample_0162,degeul domram bi,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks tidak jelas; tidak ada sentimen ke MBG,netral,netral,netral,netral,human_label
+label_sample_0165,otw mbg,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks pendek; tidak ada polaritas jelas,netral,netral,netral,netral,human_label
+label_sample_0166,mbg opo,netral,tidak ada polaritas jelas,teks sangat pendek,netral,pertanyaan singkat tanpa polaritas,netral,netral,netral,netral,human_label
+label_sample_0171,mbemba,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks tidak jelas; tidak ada sentimen ke MBG,netral,netral,netral,netral,human_label
+label_sample_0173,mbg sopo,netral,tidak ada polaritas jelas,teks sangat pendek,netral,pertanyaan singkat tanpa polaritas,netral,netral,netral,netral,human_label
+label_sample_0178,full untuk mbg,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks terlalu pendek; dukungan tidak eksplisit,netral,netral,netral,netral,human_label
+label_sample_0186,mbg nj m,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks tidak jelas; tidak ada sentimen ke MBG,netral,netral,netral,netral,human_label
+label_sample_0189,mbg tu program pemerintah apa rakyat sebenernya,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,netral,pertanyaan status program tanpa polaritas tegas,netral,netral,netral,netral,human_label
+label_sample_0198,mbg tuh apa ya kak makanan babi gendut kahh,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,candaan/ejekan terhadap istilah MBG,negatif,netral,negatif,negatif,human_label
+label_sample_0199,setidaknya biar jelas maunya apa mbg,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,menyiratkan ketidakjelasan arah MBG,negatif,netral,negatif,negatif,human_label
+label_sample_0200,dia ngomong apa emang ttg mbg ikn,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,netral,pertanyaan konteks pembicaraan tanpa sentimen,netral,netral,netral,netral,human_label

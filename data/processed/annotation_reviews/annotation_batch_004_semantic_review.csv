@@ -1,0 +1,51 @@
+sample_id,clean_text,label,labeling_notes,word_count,semantic_review_notes,needs_manual_review,semantic_review_status
+label_sample_0151,lah iya menunya gak kaya mbg,netral,tidak ada polaritas jelas,6,,False,ok
+label_sample_0152,kebalikannya bang ipul kwkwkwk,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0153,katanya king indonesia kok gak masuk list,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0154,bolehkah makan bergizi gratis mbg di sekolah pilih menu,positif,sinyal positif: bergizi,9,,False,ok
+label_sample_0155,kok hampir semua kementrian pd ngotot mbg ada apa,netral,pertanyaan tanpa polaritas jelas,9,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0156,mending ini drpd mbg,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0157,ga salah sih mbg kan makanan beracun gratis,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0158,prabowo sukses angkat harapan rakyat mbg top,positif,sinyal positif: harapan,7,,False,ok
+label_sample_0159,ompreng penjara mbg,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0160,demi mbg semua di korbankan,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0161,good job polri dukung terus program gizi mbg,positif,"sinyal positif: good job, dukung",8,,False,ok
+label_sample_0162,degeul domram bi,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0163,gawin kaya lagi makan makanan bergizi gratis,positif,sinyal positif: bergizi,7,,False,ok
+label_sample_0164,apapun masih mending dibanding mbg asu ini wkwkw,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0165,otw mbg,netral,tidak ada polaritas jelas,2,teks sangat pendek,True,review
+label_sample_0166,mbg opo,netral,tidak ada polaritas jelas,2,teks sangat pendek,True,review
+label_sample_0167,pawankalyanbdaycelebrations adv hbd my man ï x f,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0168,mending gaji dpd aja yg dipake mbg,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0169,kemenkop fasilitasi gakoptindo jadi penyuplai program mbg,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0170,asosiasi minta program mbg berpihak pada peternak lokal,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0171,mbemba,netral,tidak ada polaritas jelas,1,teks sangat pendek,True,review
+label_sample_0172,ora mangan mbg ora pateken,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0173,mbg sopo,netral,tidak ada polaritas jelas,2,teks sangat pendek,True,review
+label_sample_0174,program mbg patut diacungi jempol inspiratif,netral,tidak ada polaritas jelas,6,,False,ok
+label_sample_0175,tunjangan gaji lu pada aja dikurangin buat mbg gimana,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0176,kelompok knpb bawa semangat perjuangkan papua dari mbg,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0177,haish dasar hoax jelas jelas mbg bagus untuk rakyat,positif,sinyal positif: bagus,9,,False,ok
+label_sample_0178,full untuk mbg,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0179,nggak perlu khawatir lagi kesehatan terjamin sama mbg,positif,sinyal positif: sehat,8,,False,ok
+label_sample_0180,masakan nuna lebih enak padahaal timbang mbg wkwkw,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0181,mbg malak bapa gratis,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0182,mantap mbg sukses dukung kesejahteraan gizi bangsa,positif,"sinyal positif: mantap, dukung",7,,False,ok
+label_sample_0183,khan ada makan siang gratis,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0184,sangat bermanfaat semoga mbg makin meluas jangkauannya,positif,sinyal positif: bermanfaat,7,,False,ok
+label_sample_0185,skema makan bergizi gratis asa besar yang membebani umkm,positif,sinyal positif: bergizi,9,,False,ok
+label_sample_0186,mbg nj m,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0187,gk liat aja vendor mbg kabur,netral,tidak ada polaritas jelas,6,,False,ok
+label_sample_0188,wallah comp na wa vas y toi,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0189,mbg tu program pemerintah apa rakyat sebenernya,netral,pertanyaan tanpa polaritas jelas,7,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0190,di mbg aja kalau mau murmer ya erlangga kris a,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0191,budone senegal baniuni kou goor ki dako ligey ptdr,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0192,ya kan lucunya kemarin tuh smpet bahas mbg,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0193,wacha kucheka sana mtu wa mjengo asituskie,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0194,muka kebanyakan mbg ceking kucel ngomong tak jelas,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0195,janganâ yang ngirim si jelmaan napoleon dr animal farm,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0196,mbg dorong sdm unggul untuk sambut dengan senyuman,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0197,itu mah mbg cuy,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0198,mbg tuh apa ya kak makanan babi gendut kahh,netral,pertanyaan tanpa polaritas jelas,9,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0199,setidaknya biar jelas maunya apa mbg,netral,pertanyaan tanpa polaritas jelas,6,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0200,dia ngomong apa emang ttg mbg ikn,netral,pertanyaan tanpa polaritas jelas,7,catatan menunjukkan konteks ambigu/informatif,True,review

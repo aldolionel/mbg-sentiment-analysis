@@ -1,0 +1,51 @@
+sample_id,clean_text,label,labeling_notes,word_count,semantic_review_notes,needs_manual_review,semantic_review_status
+label_sample_0051,betul program mbg,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0052,tutor mbg ada di twitter regilios ndut,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0053,thiakhane rek,netral,tidak ada polaritas jelas,2,teks sangat pendek,True,review
+label_sample_0054,kenyang kagak bego iya indonesiagelap makansianggratis,netral,tidak ada polaritas jelas,6,,False,ok
+label_sample_0055,coba di tawarin ke tim mbg,netral,tidak ada polaritas jelas,6,,False,ok
+label_sample_0056,sir kasi mbg jg dong ini sir tolong,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0057,berasa mbg,netral,tidak ada polaritas jelas,2,teks sangat pendek,True,review
+label_sample_0058,mbg guys yokk,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0059,wts tiket timnas vs jepang wajib cod jogjaa,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0060,pasti ini caranya dengan mbg ketebakk nihh,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0061,mbg perdana di kotim dinikmati pelajar,netral,tidak ada polaritas jelas,6,,False,ok
+label_sample_0062,anggaran untuk minum anda lebih besar dari mbg,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0063,mbg ama bw juga nah itu doang kan yg rame,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0064,fawad khan s mbg,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0065,mbg said he hates halo,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0066,mbg sucks in general,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0067,apasih isi daging kampanyenya mbg doang bkn,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0068,indonesia sehat berawal dari mbg mari terus dukung,positif,"sinyal positif: sehat, dukung",8,,False,ok
+label_sample_0069,tapi better anjirt dari mbg,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0070,program mbg makin hits nigcelom banget untuk jutaan orang,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0071,bru baca yg mbg,netral,tidak ada polaritas jelas,4,,False,ok
+label_sample_0072,kata gendis semangkane mbg kecut bisa diganti duku,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0073,nasib apple di ri terancam hingga mbg butuh tambahan dana,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0074,mbg itu makan batagor gratis rupanya hehe,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0075,kerby kerby kerby,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0076,apapun masalahnya solusinya mbg gitu hh lawak,positif,sinyal positif: solusi,7,,False,ok
+label_sample_0077,simpel apun permasalah negara solusinyq adalah mbg,positif,sinyal positif: solusi,7,,False,ok
+label_sample_0078,yg penting tweet nya ngenyangin birahi buzzer mbg,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0079,mantul dukungan gizi dari polri bikin mbg makin optimal,positif,sinyal positif: dukung,9,,False,ok
+label_sample_0080,bnyk kali cakapmu kontol ini korban anak lg dr mbg,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0081,untuk mbg saja ngutang ngomong sebakul ampun,negatif,sinyal negatif: utang,7,,False,ok
+label_sample_0082,wow program mbg prabowo emang keren abis,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0083,apa nanti ke mbg ya,netral,pertanyaan tanpa polaritas jelas,5,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0084,mikirin mbg ga kelarâ kapan mau mikir yg lain,netral,pertanyaan tanpa polaritas jelas,9,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0085,sekalian aja semua apbn buat mbg yg kalian banggain itu,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0086,sepertinya mas perlu dapat mbg supaya tidak stunting bu,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0087,mbg makan bergizi gratis ã mbg mall bali galeria,positif,sinyal positif: bergizi,9,,False,ok
+label_sample_0088,pati itu singkatan kepanjangannya pejabat tinggi cmiiw,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0089,semua kacau gara gara mbg,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0090,apaka intense seizecontroldlsu,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0091,batalkan program mbg,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0092,duitnya udh habis bwt mbg,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0093,boonk dpt mbg,netral,tidak ada polaritas jelas,3,teks sangat pendek,True,review
+label_sample_0094,kepala batu orang butuh pendidikan gratiss wok ndasmu mbg,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0095,dukung penuh program program pendidikan kayak mbg ini,positif,sinyal positif: dukung,8,,False,ok
+label_sample_0096,semua demi makan bergizi gratis yang gak bergizi amat itu,positif,sinyal positif: bergizi,10,,False,ok
+label_sample_0097,bayarkan dulu hak para sppg program mbg dari bulan januari,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0098,jauh kali pun dr mbg,netral,tidak ada polaritas jelas,5,,False,ok
+label_sample_0099,keliatannya lebih bergizi dari mbg,positif,sinyal positif: bergizi,5,,False,ok
+label_sample_0100,makan bergizi gratis mgb,positif,sinyal positif: bergizi,4,,False,ok

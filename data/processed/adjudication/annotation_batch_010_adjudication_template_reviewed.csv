@@ -1,0 +1,3 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label
+label_sample_0461,siapa sih yg ngeyakinin dia program mbg bisa nguntungin dia eh salah nguntungin rakyat,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,sarkasme soal manfaat MBG bagi rakyat,negatif
+label_sample_0467,kalo kritik deddy corbuzier ke anak anak yang complain tentang mbg itu masuknya yang mana bang,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,netral,pertanyaan tentang kritik pihak lain,netral

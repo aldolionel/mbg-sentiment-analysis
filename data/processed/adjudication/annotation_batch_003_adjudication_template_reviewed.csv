@@ -1,0 +1,7 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label
+label_sample_0115,eeh mpangi,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks tidak jelas; tidak ada sentimen ke MBG,netral
+label_sample_0123,mbg tuh apa si makan bersama gratis,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,netral,pertanyaan definisi tanpa polaritas,netral
+label_sample_0130,yg deket mbg,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks pendek; konteks tidak cukup,netral
+label_sample_0138,mbg bukan,netral,tidak ada polaritas jelas,teks sangat pendek,netral,teks pendek; konteks tidak cukup,netral
+label_sample_0145,trikot,netral,tidak ada polaritas jelas,teks sangat pendek,netral,tidak terkait jelas dengan MBG,netral
+label_sample_0150,oke mbg nan,netral,tidak ada polaritas jelas,teks sangat pendek,netral,ada kata oke tetapi konteks tidak cukup,netral

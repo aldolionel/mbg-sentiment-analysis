@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-07-07T20:31:53",
+  "batch_id": "007",
+  "rows": 50,
+  "label_counts": {
+    "positif": 26,
+    "netral": 24
+  },
+  "needs_manual_review_count": 1,
+  "needs_manual_review_rate": 0.02
+}

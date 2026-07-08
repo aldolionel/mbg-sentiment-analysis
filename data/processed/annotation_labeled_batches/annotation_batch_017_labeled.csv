@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0801,positif,sinyal positif: bergizi
+label_sample_0802,netral,tidak ada polaritas jelas
+label_sample_0803,positif,sinyal positif: bagus
+label_sample_0804,netral,pertanyaan tanpa polaritas jelas
+label_sample_0805,netral,pertanyaan tanpa polaritas jelas
+label_sample_0806,netral,tidak ada polaritas jelas
+label_sample_0807,positif,sinyal positif: bergizi
+label_sample_0808,positif,"sinyal positif: bergizi, dukung"
+label_sample_0809,netral,tidak ada polaritas jelas
+label_sample_0810,positif,sinyal positif: dukung
+label_sample_0811,positif,sinyal positif: sehat
+label_sample_0812,positif,sinyal positif: bergizi
+label_sample_0813,positif,sinyal positif: dukung
+label_sample_0814,netral,tidak ada polaritas jelas
+label_sample_0815,netral,pertanyaan tanpa polaritas jelas
+label_sample_0816,netral,pertanyaan tanpa polaritas jelas
+label_sample_0817,negatif,sinyal negatif: korupsi
+label_sample_0818,netral,pertanyaan tanpa polaritas jelas
+label_sample_0819,netral,tidak ada polaritas jelas
+label_sample_0820,netral,pertanyaan tanpa polaritas jelas
+label_sample_0821,positif,"sinyal positif: baik, bergizi"
+label_sample_0822,netral,tidak ada polaritas jelas
+label_sample_0823,netral,pertanyaan tanpa polaritas jelas
+label_sample_0824,positif,"sinyal positif: bagus, solusi"
+label_sample_0825,positif,"sinyal positif: sehat, bergizi"
+label_sample_0826,positif,sinyal positif: bergizi
+label_sample_0827,positif,sinyal positif: baik
+label_sample_0828,netral,tidak ada polaritas jelas
+label_sample_0829,netral,tidak ada polaritas jelas
+label_sample_0830,netral,tidak ada polaritas jelas
+label_sample_0831,netral,tidak ada polaritas jelas
+label_sample_0832,positif,"sinyal positif: sehat, bergizi"
+label_sample_0833,positif,"sinyal positif: baik, bergizi"
+label_sample_0834,netral,pertanyaan tanpa polaritas jelas
+label_sample_0835,negatif,sinyal negatif: ancaman
+label_sample_0836,netral,pertanyaan tanpa polaritas jelas
+label_sample_0837,negatif,"sinyal negatif: korupsi, utang"
+label_sample_0838,positif,"sinyal positif: bagus, tepat, bergizi"
+label_sample_0839,positif,"sinyal positif: baik, bergizi, dukung"
+label_sample_0840,positif,sinyal positif: terima kasih
+label_sample_0841,positif,sinyal positif: bergizi
+label_sample_0842,netral,pertanyaan tanpa polaritas jelas
+label_sample_0843,netral,tidak ada polaritas jelas
+label_sample_0844,positif,sinyal positif: bergizi
+label_sample_0845,netral,tidak ada polaritas jelas
+label_sample_0846,positif,sinyal positif: bagus
+label_sample_0847,netral,pertanyaan tanpa polaritas jelas
+label_sample_0848,positif,sinyal positif: bergizi
+label_sample_0849,netral,tidak ada polaritas jelas
+label_sample_0850,positif,"sinyal positif: baik, terima kasih, bergizi"

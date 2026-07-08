@@ -1,0 +1,27 @@
+{
+  "input_file": "data\\raw\\data crawl mbg (in).xlsx",
+  "input_sheet": "Sheet1",
+  "input_text_column": "full_text",
+  "output_file": "data\\interim\\mbg_crawl_interim.csv",
+  "raw_rows": 73900,
+  "interim_rows": 73900,
+  "columns": [
+    "interim_id",
+    "source_file",
+    "source_sheet",
+    "source_row_number",
+    "clean_text",
+    "clean_text_length",
+    "clean_word_count",
+    "is_empty_clean_text",
+    "is_duplicate_clean_text"
+  ],
+  "empty_clean_text_count": 0,
+  "duplicate_original_text_count": 5991,
+  "duplicate_clean_text_count": 11454,
+  "duplicate_clean_text_rate": 0.15499323410013532,
+  "rows_containing_at_symbol_in_clean_text": 0,
+  "rows_containing_http_in_clean_text": 0,
+  "privacy_columns_present": [],
+  "generated_at": "2026-07-06T22:43:31"
+}

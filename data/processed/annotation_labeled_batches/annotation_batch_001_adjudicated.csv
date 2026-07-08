@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes,label_before_adjudication,clean_text,human_notes,adjudication_applied,label_after_adjudication,human_label,adjudication_review_reason
+label_sample_0001,netral,teks ambigu tanpa polaritas jelas,netral,belum selesai lomba di mbg sekarang udah di living,teks ambigu tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0002,positif,apresiasi terhadap dukungan program,positif,good job polri rekrut gizi spesialis buat mbg makin mantap,,False,positif,,
+label_sample_0003,positif,informasi penyaluran tanpa opini jelas,netral,dapoer ibu boyolali terus salurkan mbg untuk para siswa,seperti support mbg,True,positif,positif,catatan menunjukkan konteks ambigu/informatif
+label_sample_0004,negatif,kritik prioritas anggaran,negatif,duitnya buat mbg ga bisa bayar artist lokal,,False,negatif,,
+label_sample_0005,netral,informasi simulasi tanpa opini,netral,deket rumah udah ada simulasi makan bergizi gratis,informasi simulasi tanpa opini,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0006,negatif,sarkasme negatif soal kualitas makanan,negatif,mbg tuh makan basi gratis kh,,False,negatif,,
+label_sample_0007,netral,informasi menu tanpa opini,netral,mbg hari ini nasi thiwul bothok oseng ndeso tempe bacem,informasi menu tanpa opini,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0008,netral,tidak relevan atau konteks tidak jelas,netral,kurang mahkotanya king,tidak relevan atau konteks tidak jelas,True,netral,netral,teks sangat pendek; catatan menunjukkan konteks ambigu/informatif
+label_sample_0009,negatif,penolakan terhadap pencetus program,negatif,lagi pengen nempeleng orang pencetus program mbg,,False,negatif,,
+label_sample_0010,positif,ucapan terima kasih terhadap mbg,positif,makasih mbg njung,ucapan terima kasih terhadap mbg,True,positif,positif,teks sangat pendek
+label_sample_0011,netral,tidak relevan atau konteks tidak jelas,netral,fifi masuka,tidak relevan atau konteks tidak jelas,True,netral,netral,teks sangat pendek; catatan menunjukkan konteks ambigu/informatif
+label_sample_0012,negatif,kritik kualitas gizi mbg,negatif,sinii mam sma bayiku lebih bergizi dibanding mbg ntu,,False,negatif,,
+label_sample_0013,negatif,kritik politik terkait mbg,negatif,indonesiagelap dibawah rezim ini demi mbg,,False,negatif,,
+label_sample_0014,positif,dukungan terhadap manfaat gizi pelajar,positif,mbg solusi tepat naikin gizi pelajar,,False,positif,,
+label_sample_0015,netral,informasi program dimulai,netral,mbg resmi dimulai,informasi program dimulai,True,netral,netral,teks sangat pendek; catatan menunjukkan konteks ambigu/informatif
+label_sample_0016,positif,apresiasi terhadap pencapaian mbg,positif,ini baru prestasi mbg makin diakui dan dikagumi,,False,positif,,
+label_sample_0017,netral,candaan tanpa polaritas jelas,netral,kl gua ketawa gua dikasi mbg ga,candaan tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0018,negatif,keluhan atau kekhawatiran terkait mbg,negatif,pusing tuh mikirin mbg sama danantara awowkwokwok,,False,negatif,,
+label_sample_0019,netral,tidak relevan atau konteks tidak jelas,netral,bilahi kone ma nokk la,tidak relevan atau konteks tidak jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0020,negatif,sarkasme politik terkait mbg,negatif,mbg mabok bersama gibran,,False,negatif,,
+label_sample_0021,positif,dukungan manfaat kesehatan anak,positif,makan bergizi gratis bikin anak makin sehat mantap,,False,positif,,
+label_sample_0022,netral,perbandingan tanpa polaritas jelas,netral,smpn surabaya mbg nya mirip adkesmah bagi takjil,perbandingan tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0023,negatif,candaan tanpa polaritas jelas,netral,idiih minjem motor siapa lagi si mbg,sindiran,True,negatif,negatif,catatan menunjukkan konteks ambigu/informatif
+label_sample_0024,positif,persepsi manfaat mencegah stunting,positif,inilah orang yg butuh mbg biar gak stunting,,False,positif,,
+label_sample_0025,negatif,keluhan distribusi tidak mendapat mbg,negatif,mbg mbg adek gw noh gak dapet,,False,negatif,,
+label_sample_0026,netral,teks terlalu pendek atau tidak jelas,netral,ndeko,teks terlalu pendek atau tidak jelas,True,netral,netral,teks sangat pendek; catatan menunjukkan konteks ambigu/informatif
+label_sample_0027,negatif,kekhawatiran populisme dan anggaran,negatif,mbg upaya populis angkat kualitas sdm yang ancaman apbn,,False,negatif,,
+label_sample_0028,netral,pertanyaan tanpa polaritas jelas,netral,kok makan bukanya gak pake makan siang bergizi gratis sih,pertanyaan tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0029,negatif,informasi ajakan mendukung program,netral,utk menyukseskan mbg asn perlu bekerja hari seminggu,sindiran,True,negatif,negatif,catatan menunjukkan konteks ambigu/informatif; netral tetapi ada sinyal positif
+label_sample_0030,positif,apresiasi terhadap mbg,positif,mantap mbg dapat apresiasi sepenuh hati,,False,positif,,
+label_sample_0031,positif,apresiasi program sebagai langkah brilian,positif,makan bergizi gratis langkah brilian kemenrans bgn,,False,positif,,
+label_sample_0032,netral,saran atau topik bahan pangan tanpa opini jelas,netral,next bio meat sebagai sumber protein mbg,saran atau topik bahan pangan tanpa opini jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0033,negatif,kritik prioritas pendidikan dibanding mbg,negatif,potret penting pendidikan lebih penting dari mbg catat,,False,negatif,,
+label_sample_0034,positif,dukungan karena program terus berjalan,positif,mbg gak mangkrak masih terus berjalan sampai saat ini,,False,positif,,
+label_sample_0035,netral,pertanyaan tanpa polaritas jelas,netral,program mbg diatur sama menteri apa yak,pertanyaan tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0036,negatif,sarkasme negatif soal kandungan makanan,negatif,iya sebenernya mbg kan makan berisi gula upsie,,False,negatif,,
+label_sample_0037,negatif,kritik prioritas pemerintah,negatif,urusin gas aja sono drpd mbg gjlss,,False,negatif,,
+label_sample_0038,netral,tidak relevan dengan program mbg,netral,oo photobox di mbg paling gede,tidak relevan dengan program mbg,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0039,netral,pernyataan informatif tanpa opini jelas,netral,tp mbg dan kcic surabaya jalan terus,pernyataan informatif tanpa opini jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0040,netral,pernyataan faktual tanpa polaritas jelas,netral,kalo pemerintah kan fokus mbg,pernyataan faktual tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0041,positif,dukungan terhadap makan bergizi anak bangsa,positif,makan bergizi untuk anak bangsa mbg,,False,positif,,
+label_sample_0042,negatif,sarkasme negatif soal solusi kemiskinan,negatif,negara membiarkan kemiskinan solusinya mbg,,False,negatif,,
+label_sample_0043,netral,pertanyaan tanpa polaritas jelas,netral,qobul aamiin mbg apa itu,pertanyaan tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0044,netral,teks ambigu tanpa polaritas jelas,netral,untung mha coba mbg,teks ambigu tanpa polaritas jelas,True,netral,netral,catatan menunjukkan konteks ambigu/informatif
+label_sample_0045,negatif,kritik kualitas makanan,negatif,mbg b nya katanya bukan bergizi ya tp busuk basi berulat,,False,negatif,,
+label_sample_0046,netral,tidak relevan atau konteks tidak jelas,netral,mbg biyokimya,tidak relevan atau konteks tidak jelas,True,netral,netral,teks sangat pendek; catatan menunjukkan konteks ambigu/informatif
+label_sample_0047,positif,ekspresi positif terhadap makan bergizi gratis,positif,surga itu makan bergizi gratis,,False,positif,,
+label_sample_0048,negatif,kritik kasar terhadap makanan mbg,negatif,kontol emang mbg makan tuh nasi berak,,False,negatif,,
+label_sample_0049,netral,tidak relevan atau konteks tidak jelas,netral,zindagi,tidak relevan atau konteks tidak jelas,True,netral,netral,teks sangat pendek; catatan menunjukkan konteks ambigu/informatif
+label_sample_0050,positif,optimisme terhadap masa depan bersama mbg,positif,bersama mbg harapan cerah menyongsong masa depan emas di,,False,positif,,

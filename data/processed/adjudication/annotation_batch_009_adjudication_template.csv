@@ -1,0 +1,3 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label
+label_sample_0404,mbg kan mau didanain mereka dgn syarat ambil barang dari mereka jg jadi yg bego siapa,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,
+label_sample_0444,gak heran lh mereka kerja kan gotong royong gak apa lah toh urusan mbg menteri hutan jg ikut kok,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,

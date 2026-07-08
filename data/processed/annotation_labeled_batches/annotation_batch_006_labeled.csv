@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0251,netral,tidak ada polaritas jelas
+label_sample_0252,netral,tidak ada polaritas jelas
+label_sample_0253,positif,sinyal positif: bergizi
+label_sample_0254,netral,tidak ada polaritas jelas
+label_sample_0255,netral,pertanyaan tanpa polaritas jelas
+label_sample_0256,netral,tidak ada polaritas jelas
+label_sample_0257,positif,"sinyal positif: bergizi, dukung"
+label_sample_0258,netral,tidak ada polaritas jelas
+label_sample_0259,negatif,sinyal negatif: korupsi
+label_sample_0260,netral,tidak ada polaritas jelas
+label_sample_0261,netral,tidak ada polaritas jelas
+label_sample_0262,positif,sinyal positif: dukung
+label_sample_0263,positif,sinyal positif: bergizi
+label_sample_0264,netral,tidak ada polaritas jelas
+label_sample_0265,positif,sinyal positif: bergizi
+label_sample_0266,netral,tidak ada polaritas jelas
+label_sample_0267,positif,sinyal positif: dukung
+label_sample_0268,netral,tidak ada polaritas jelas
+label_sample_0269,netral,tidak ada polaritas jelas
+label_sample_0270,positif,sinyal positif: sehat
+label_sample_0271,netral,tidak ada polaritas jelas
+label_sample_0272,positif,"sinyal positif: sehat, bergizi, dukung"
+label_sample_0273,positif,sinyal positif: bergizi
+label_sample_0274,netral,tidak ada polaritas jelas
+label_sample_0275,positif,sinyal positif: bergizi
+label_sample_0276,netral,tidak ada polaritas jelas
+label_sample_0277,netral,tidak ada polaritas jelas
+label_sample_0278,positif,sinyal positif: bergizi
+label_sample_0279,netral,tidak ada polaritas jelas
+label_sample_0280,positif,"sinyal positif: sehat, dukung"
+label_sample_0281,positif,sinyal positif: terima kasih
+label_sample_0282,positif,sinyal positif: bergizi
+label_sample_0283,positif,sinyal positif: sehat
+label_sample_0284,netral,tidak ada polaritas jelas
+label_sample_0285,positif,sinyal positif: bergizi
+label_sample_0286,netral,pertanyaan tanpa polaritas jelas
+label_sample_0287,positif,"sinyal positif: baik, solusi, dukung"
+label_sample_0288,positif,sinyal positif: makasih
+label_sample_0289,netral,tidak ada polaritas jelas
+label_sample_0290,netral,tidak ada polaritas jelas
+label_sample_0291,positif,sinyal positif: bergizi
+label_sample_0292,positif,sinyal positif: dukung
+label_sample_0293,netral,tidak ada polaritas jelas
+label_sample_0294,netral,tidak ada polaritas jelas
+label_sample_0295,positif,sinyal positif: bergizi
+label_sample_0296,positif,sinyal positif: sehat
+label_sample_0297,netral,tidak ada polaritas jelas
+label_sample_0298,netral,tidak ada polaritas jelas
+label_sample_0299,positif,sinyal positif: dukung
+label_sample_0300,netral,tidak ada polaritas jelas

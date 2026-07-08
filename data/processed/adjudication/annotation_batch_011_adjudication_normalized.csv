@@ -1,0 +1,3 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label,current_label_normalized,human_label_normalized,final_label_normalized,final_label_source
+label_sample_0506,anak sekolah loh mereka objek sebenarnya dari proker mbg ini dan mereka nolak kurang jelas apa lagi,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,menekankan penolakan siswa terhadap MBG,negatif,netral,negatif,negatif,human_label
+label_sample_0536,wamendag dyah roro esti meninjau program makan bergizi gratis di slb negeri slipi jakarta seperti apa,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,netral,informasi/pertanyaan berita tanpa opini,netral,netral,netral,netral,human_label

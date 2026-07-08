@@ -1,0 +1,78 @@
+# AI-Assisted Sentiment Labeling Prompt - annotation_batch_011
+
+Anda membantu memberi label sentimen publik terhadap Program Makan Bergizi Gratis (MBG) pada teks media sosial.
+
+Gunakan hanya label berikut: `positif`, `negatif`, `netral`.
+
+Aturan penting:
+- Labeli sentimen terhadap Program MBG, bukan terhadap tokoh politik kecuali langsung terkait MBG.
+- Jika teks memuat sentimen positif dan negatif, pilih sentimen yang paling dominan.
+- Jika teks berupa informasi, berita, pertanyaan tanpa polaritas jelas, ambigu, atau Anda tidak yakin, gunakan `netral`.
+- Sarkasme diberi label sesuai makna tersirat.
+- Jangan mengubah `sample_id`.
+- Jangan menambah baris.
+- Jangan menghapus baris.
+- Jangan mengisi label selain `positif`, `negatif`, atau `netral`.
+
+Kembalikan jawaban hanya sebagai CSV block dengan kolom:
+
+```csv
+sample_id,label,labeling_notes
+```
+
+Isi `labeling_notes` secara singkat jika perlu. Jika tidak perlu catatan, kosongkan.
+
+## Rows
+
+| sample_id | clean_text |
+| --- | --- |
+| label_sample_0501 | program mbg bantu cegah stunting di indonesia mari beri dukungan kita agar gizi seimbang terwujud |
+| label_sample_0502 | program makan bergizi gratis penuhi gizi anak anak menuju indonesia emas makanbergizigratis |
+| label_sample_0503 | kamu tahu mbg adalah kunci untuk generasi sehat dan kuat mari kirim apresiasi kita untuk program ini |
+| label_sample_0504 | makan bergizi gratis hari ini wilayah jakarta utara sma awasimbg makanbergizigratis awasimbg |
+| label_sample_0505 | kontribusi umkm bikin program mbg jadi perhatian masyarakat sehat makin terjamin umkmdukungmbg |
+| label_sample_0506 | anak sekolah loh mereka objek sebenarnya dari proker mbg ini dan mereka nolak kurang jelas apa lagi |
+| label_sample_0507 | kunjungan pm jepang fokus ke makan bergizi gratis yuk sambut positif sinergiindonesiajepang |
+| label_sample_0508 | dan mbg pun ga mau ketinggalan renovasi mbg dan dfs sekarang disatukan dibuat jalan tembus dari ace |
+| label_sample_0509 | makasn siang gratis mulu kntl apaan si goblok negara lagi ancur mikirin makan siang gratis |
+| label_sample_0510 | dengan program mbg mari kita bawa perubahan berarti pada umkm dan gizi anak mbgdorongekonomi |
+| label_sample_0511 | tolong nih tuntaskan gizi mbg pemain ya jgn lupa ajak fufufafa beserta para para maniac gemoy cheerleaders nya |
+| label_sample_0512 | suruh pejabat pusat mpe daerah yg makan menu mbg anak makan jatah pejabat yg uang makannya aja x lipat dari mbg |
+| label_sample_0513 | sebagai program unggulan presiden bhw mbg ini harusnya dijamin tepat sasaran tepat jumlah tepat mutu dan tepat waktu |
+| label_sample_0514 | program makan bergizi gratis bener bener ngefek banget bikin anak sekolah dan bumil makin sehat harikerjanyata |
+| label_sample_0515 | markup data kaya gini denger rahasia umum juga ya min dengan berbagai cara di dunia saham |
+| label_sample_0516 | pemerintah realisasikan program mbg sebagai langkah strategis memperkuat gizi masyarakat plnuntukindonesia |
+| label_sample_0517 | bgn gandeng kpk untuk turut serta mengawal dan mengawasi program makan bergizi gratis |
+| label_sample_0518 | ikuti langkah berkilau program mbg bakal memberi warna baru bagi adat papua mbgpapua |
+| label_sample_0519 | program mbg bantu anak papua jadi lebih kuat dan cerdas tokoh agama anjurkan kita untuk kontribusi |
+| label_sample_0520 | plus program mbg itu program apaan gess bisa nya kalian menangkan dg program kek gitu |
+| label_sample_0521 | kayanya di hack deh gw kemaren juga gitu ada akun yg fotonya si apon tapi tweetnya bahas makan bergizi gratis |
+| label_sample_0522 | bakalan kena juga kalo program mbg ini mulai banyak masalahnya soalnya mbg ini kan yang sering wara wiri si wakilnya |
+| label_sample_0523 | program mbg adalah upaya kolektif untuk memastikan anak anak mendapatkan nutrisi yang mereka butuhkan umkmdukungmbg |
+| label_sample_0524 | umkm bersama mbg berikan jaminan masyarakat terima pangan sehat dan berkualitas untuk kesejahteraan umkmdukungmbg |
+| label_sample_0525 | pelajar makin semangat belajar berkat program mbg yuk dukung terus program keren ini |
+| label_sample_0526 | fasilitas oke bikin perbedaan dukung mbg untuk sekolah yang lebih baik kolaborasitingkatkanpendidikan |
+| label_sample_0527 | umkm semakin terbantu dalam menghadapi tantangan pasar berkat adanya program makan bergizi gratis mbgdorongekonomi |
+| label_sample_0528 | generasi kita berhak sehat dengan program makan bergizi gratis pemerintah hadir nyata buat rakyat |
+| label_sample_0529 | wapres gibran tegaskan makan bergizi gratis investasi untuk masa depan news viral fyp |
+| label_sample_0530 | kalau mbg diganti jadi pendidikan gratis infrastruktur pendukung di masa depan lebih banyak yg terbangun |
+| label_sample_0531 | lebih banyak mudharatnya anjrit ini makan siang gratis udh mah kaga bergizi bener lu ya |
+| label_sample_0532 | makanâ bergiziâ gratis program ini berusaha menciptakan masyarakat yang tangguh dan kreatif untuk anak kita |
+| label_sample_0533 | mbg tidak sepenuhnya sukses namun melumpuhkan banyak lini vital fungsi negara let s see |
+| label_sample_0534 | sinergitas kuat tni polri tak hanya amankan mudik tapi juga program mbg sinergitasuntukbangsa |
+| label_sample_0535 | lalu cpns gmn danantara yg bikin saham sampe di pause pagar laut mbg bermasalah come on guys sadar |
+| label_sample_0536 | wamendag dyah roro esti meninjau program makan bergizi gratis di slb negeri slipi jakarta seperti apa |
+| label_sample_0537 | penting penampakan nya dulu gizi nomer sekian biar dilihatnya bagus dan dapat meningkatkan nilai mbg berhasil |
+| label_sample_0538 | bangkit bareng sama program mbg masyarakat sejahtera ketahanan pangan terjaga peluang melimpah |
+| label_sample_0539 | tni polri kompak amankan program prabowo dari mbg hingga swasembada pangan sinergitasuntukbangsa |
+| label_sample_0540 | program makan bergizi gratis jadi peluang emas buat umkm di sektor pangan meroket mbgdorongekonomi |
+| label_sample_0541 | template jawaban wowo kita ini negara kuat dan besar kita harus berdikari mandiri asing mbg lanjutin |
+| label_sample_0542 | berikan sekolah terbaik dengan fasilitas memadai dukung program mbg kolaborasitingkatkanpendidikan |
+| label_sample_0543 | hii jgn lauk ayam yg mengandung telur larva belatung masuk n lolos di salah satu menu mbg atuutt |
+| label_sample_0544 | program makan bergizi gratis berkontribusi pada terciptanya peluang ekonomi yang lebih adil |
+| label_sample_0545 | demi mbg anggaran bmkg dipotong dan akibatnya bisa jadi peringatan gempa dan tsunami terlambat |
+| label_sample_0546 | umkm bikin pelaksanaan mbg jadi lebih efektif dengan produk pangan sehat yang accessible umkmdukungmbg |
+| label_sample_0547 | dana otsus dan mbg kolaborasi top pendidikan dan gizi papua bersatu untuk perubahan besar |
+| label_sample_0548 | gizi sehat papua maju dukung terus program makan bergizi gratis untuk kesehatan anak anak papua mbguntukpapua |
+| label_sample_0549 | dukung kerja sama makan bergizi gratis antara indonesia dan jepang semoga rakyat makin sehat sinergiindonesiajepang |
+| label_sample_0550 | bersama umkm kita bisa wujudkan program makan bergizi gratis yang lebih masif umkmdukungmbg |

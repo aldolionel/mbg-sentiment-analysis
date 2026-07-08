@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-07-07T22:39:09",
+  "total_rows": 1000,
+  "rows_per_batch": {
+    "001": 50,
+    "002": 50,
+    "003": 50,
+    "004": 50,
+    "005": 50,
+    "006": 50,
+    "007": 50,
+    "008": 50,
+    "009": 50,
+    "010": 50,
+    "011": 50,
+    "012": 50,
+    "013": 50,
+    "014": 50,
+    "015": 50,
+    "016": 50,
+    "017": 50,
+    "018": 50,
+    "019": 50,
+    "020": 50
+  },
+  "label_distribution": {
+    "negatif": 116,
+    "netral": 472,
+    "positif": 412
+  },
+  "label_distribution_percentage": {
+    "negatif": 11.6,
+    "netral": 47.2,
+    "positif": 41.2
+  },
+  "adjudication_applied_count": 138,
+  "changed_label_count": 75,
+  "validation_checks": {
+    "all 20 finalized batch files exist": true,
+    "each batch has 50 rows": true,
+    "total rows equals 1000": true,
+    "no missing batch_id": true,
+    "no duplicate sample_id": true,
+    "no missing clean_text": true,
+    "no missing label": true,
+    "labels are allowed values": true
+  },
+  "all_validation_checks_passed": true,
+  "output_files": {
+    "csv": "data\\processed\\mbg_labeled_sample_1000.csv",
+    "xlsx": "data\\processed\\mbg_labeled_sample_1000.xlsx",
+    "report": "outputs\\reports\\13_labeled_dataset_1000_report.md",
+    "summary_json": "outputs\\reports\\13_labeled_dataset_1000_summary.json"
+  }
+}

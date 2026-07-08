@@ -1,0 +1,3 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label,current_label_normalized,human_label_normalized,final_label_normalized,final_label_source
+label_sample_0201,mbg tai emang,netral,tidak ada polaritas jelas,teks sangat pendek,negatif,umpatan langsung terhadap MBG,negatif,netral,negatif,negatif,human_label
+label_sample_0247,hah maksudnya apa sih meninjau mbg kok malah bagi skincare woy kerja yang bener,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,kritik terhadap kegiatan peninjauan MBG,negatif,netral,negatif,negatif,human_label

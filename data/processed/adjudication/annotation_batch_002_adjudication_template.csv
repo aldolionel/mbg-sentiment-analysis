@@ -1,0 +1,11 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label
+label_sample_0051,betul program mbg,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0053,thiakhane rek,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0057,berasa mbg,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0058,mbg guys yokk,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0075,kerby kerby kerby,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0083,apa nanti ke mbg ya,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,
+label_sample_0084,mikirin mbg ga kelarâ kapan mau mikir yg lain,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,
+label_sample_0090,apaka intense seizecontroldlsu,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0091,batalkan program mbg,netral,tidak ada polaritas jelas,teks sangat pendek,,,
+label_sample_0093,boonk dpt mbg,netral,tidak ada polaritas jelas,teks sangat pendek,,,

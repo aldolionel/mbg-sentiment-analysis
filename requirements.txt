@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+wordcloud
+nltk
+Sastrawi
+openpyxl
+joblib
+jupyter
+ipykernel
+tqdm
+gensim
+pyLDAvis

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-07-08T12:20:47",
+  "input_dataset": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\mbg_labeled_sample_1000.csv",
+  "random_state": 42,
+  "dataset": {
+    "total_rows": 1000,
+    "dropped_missing_count": 0,
+    "label_distribution": {
+      "negatif": 116,
+      "netral": 472,
+      "positif": 412
+    },
+    "label_percentage": {
+      "negatif": 11.6,
+      "netral": 47.2,
+      "positif": 41.2
+    }
+  },
+  "split": {
+    "train_rows": 800,
+    "test_rows": 200,
+    "test_size": 0.2,
+    "stratify": "label"
+  },
+  "evaluation_priority": "macro F1 is prioritized due to class imbalance",
+  "smote_applied": false,
+  "model_keys": [
+    "multinomial_nb",
+    "logistic_regression",
+    "linear_svm",
+    "rbf_svm"
+  ],
+  "best_model": {
+    "model": "logistic_regression",
+    "model_display_name": "Logistic Regression",
+    "selection_metric": "test_f1_macro",
+    "test_f1_macro": 0.7150707178275484,
+    "artifact_path": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_baseline_model.joblib",
+    "metadata_path": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_baseline_model_metadata.json"
+  },
+  "outputs": {
+    "summary_json": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_baseline_summary.json",
+    "markdown_report": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_baseline_report.md",
+    "cv_results_csv": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_cv_results.csv",
+    "test_results_csv": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_test_results.csv",
+    "confusion_matrix_figures": {
+      "multinomial_nb": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\14_confusion_matrix_multinomial_nb.png",
+      "logistic_regression": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\14_confusion_matrix_logistic_regression.png",
+      "linear_svm": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\14_confusion_matrix_linear_svm.png",
+      "rbf_svm": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\14_confusion_matrix_rbf_svm.png"
+    }
+  }
+}

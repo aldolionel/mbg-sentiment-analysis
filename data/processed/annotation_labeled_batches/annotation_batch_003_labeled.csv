@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0101,positif,sinyal positif: bergizi
+label_sample_0102,netral,tidak ada polaritas jelas
+label_sample_0103,netral,tidak ada polaritas jelas
+label_sample_0104,positif,sinyal positif: bergizi
+label_sample_0105,netral,tidak ada polaritas jelas
+label_sample_0106,netral,tidak ada polaritas jelas
+label_sample_0107,negatif,sinyal negatif: korupsi
+label_sample_0108,netral,tidak ada polaritas jelas
+label_sample_0109,netral,tidak ada polaritas jelas
+label_sample_0110,netral,tidak ada polaritas jelas
+label_sample_0111,netral,tidak ada polaritas jelas
+label_sample_0112,netral,tidak ada polaritas jelas
+label_sample_0113,netral,tidak ada polaritas jelas
+label_sample_0114,netral,tidak ada polaritas jelas
+label_sample_0115,netral,tidak ada polaritas jelas
+label_sample_0116,netral,tidak ada polaritas jelas
+label_sample_0117,netral,tidak ada polaritas jelas
+label_sample_0118,netral,tidak ada polaritas jelas
+label_sample_0119,netral,tidak ada polaritas jelas
+label_sample_0120,netral,tidak ada polaritas jelas
+label_sample_0121,netral,tidak ada polaritas jelas
+label_sample_0122,netral,tidak ada polaritas jelas
+label_sample_0123,netral,pertanyaan tanpa polaritas jelas
+label_sample_0124,negatif,sinyal negatif: basi
+label_sample_0125,positif,"sinyal positif: terima kasih, bergizi"
+label_sample_0126,netral,tidak ada polaritas jelas
+label_sample_0127,netral,tidak ada polaritas jelas
+label_sample_0128,positif,sinyal positif: mantap
+label_sample_0129,netral,tidak ada polaritas jelas
+label_sample_0130,netral,tidak ada polaritas jelas
+label_sample_0131,netral,tidak ada polaritas jelas
+label_sample_0132,positif,sinyal positif: bergizi
+label_sample_0133,netral,tidak ada polaritas jelas
+label_sample_0134,netral,tidak ada polaritas jelas
+label_sample_0135,netral,tidak ada polaritas jelas
+label_sample_0136,netral,tidak ada polaritas jelas
+label_sample_0137,positif,sinyal positif: sehat
+label_sample_0138,netral,tidak ada polaritas jelas
+label_sample_0139,netral,tidak ada polaritas jelas
+label_sample_0140,netral,tidak ada polaritas jelas
+label_sample_0141,positif,sinyal positif: bergizi
+label_sample_0142,netral,tidak ada polaritas jelas
+label_sample_0143,negatif,sinyal negatif: buang
+label_sample_0144,netral,tidak ada polaritas jelas
+label_sample_0145,netral,tidak ada polaritas jelas
+label_sample_0146,netral,tidak ada polaritas jelas
+label_sample_0147,netral,tidak ada polaritas jelas
+label_sample_0148,netral,tidak ada polaritas jelas
+label_sample_0149,positif,sinyal positif: bergizi
+label_sample_0150,netral,tidak ada polaritas jelas

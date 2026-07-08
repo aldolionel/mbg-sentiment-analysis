@@ -1,0 +1,32 @@
+# Batch 020 Adjudication Report
+
+## Outputs
+- adjudicated batch: `data\processed\annotation_labeled_batches\annotation_batch_020_adjudicated.csv`
+- normalized adjudication: `data\processed\adjudication\annotation_batch_020_adjudication_normalized.csv`
+- summary JSON: `outputs\reports\07_batch_020_adjudication_summary.json`
+
+## Row Counts
+- original labeled rows: 50
+- adjudication rows: 10
+- adjudicated rows: 50
+- changed label rows: 9
+
+## Validation Checks
+- PASS: final labels are allowed values
+- PASS: no missing final labels
+- PASS: no duplicate sample_id in adjudication
+- PASS: all adjudication sample_id values exist in labeled batch
+- PASS: all adjudication sample_id values exist in semantic review
+
+## Changed Label Rows
+| sample_id | clean_text | before | after | human_label | human_notes |
+| --- | --- | --- | --- | --- | --- |
+| label_sample_0953 | sorry typo anggaran kementerian kan saat ini dipotong sampai mengorbankan banyak kementerian contohnya kemenkes dan kemendikdasmen menurut gw ga cocok aja kalo kementerian itu dipotong apa lagi kalau hanya untuk membantu anggaran mbg | netral | negatif | negatif | menolak pemotongan kementerian hanya untuk MBG |
+| label_sample_0954 | kata siapa negara efisiensi belanja cuma beda alokasi aja dulu uangnya dipake buat asn dan berbagai proyek sekarang duitnya dikumpulin buat support mbg dan bayarin gaji dan tunjangan pejabat kabinet gembrot | netral | negatif | negatif | menyindir re-alokasi dana untuk MBG dan pejabat |
+| label_sample_0960 | oh buzzer udh disanguin berapa sama pemerintah cukup kan buat makan sama susu anak trus anak yg skolah tetep dpt mbg wah enak bgt udhnya dibayarin pemerintah bgini ikut program pemerintah kok enak bgt udh bisa umroh berarti kan sama naik haji dr ngebuzzernya | netral | negatif | negatif | sarkasme terhadap buzzer/pemerintah dan MBG |
+| label_sample_0963 | buat apa program mbg jika akan melahirkan generasi otak dan etik kosong indonesia itu butuh pendidikan gratis berkualitas untuk jenjang paud s d pt agar generasi indonesia bangkit dan mampu bersaing di dunia bukan terus dijajah asing dan aseng | netral | negatif | negatif | menolak prioritas MBG dibanding pendidikan gratis berkualitas |
+| label_sample_0978 | ada kabar kurang sedep nih dari kepala badan gizi nasional sehingga orang siswa sd negeri dukuh jawa tengah keracunan menurut kalian penyebabnya karena apa ya share pendapat kalian di kolom komentar ya detikfood mbg kbgn | netral | negatif | negatif | kabar keracunan terkait MBG bernada negatif |
+| label_sample_0983 | waktu pemilu ditanya apapun solusinya hilirisasi ditanya sekarang jawabnya mbg mulu us tarif gimana dijawab harus tabah dan kuat emang dari awal semangatnya doang tinggi kalo dikasih pertanyaan apa yang penting jawabnya semangat | netral | negatif | negatif | mengkritik jawaban pemerintah yang selalu MBG |
+| label_sample_0991 | orde baru again mulai dari presiden yg memangkas rumput rakyat yg katanya untuk makan bergizi gratis dan aparat yg katanya mengayomi mana ngoni band keras yg dpe lirik full kata kata kotor so boleh bangun ato bubar jo | netral | negatif | negatif | mengaitkan MBG dengan represi/pemangkasan secara negatif |
+| label_sample_0996 | benar sekali apa yg dikatakan ustadz abdul somad sejatinya hanya orangtua yg tahu kesukaan makanan anakâ nya apalagi kualitas dan kuantitas mbg jauuh dibawah standard yg diberikan orangtua mereka sendiri banyak yg tidak mau menghabiskan makanan ala kadarnya akhirnya mubazir | netral | negatif | negatif | menilai kualitas/kuantitas MBG di bawah standar dan mubazir |
+| label_sample_1000 | cmiiw makan bergizi gratis kan buat anak sekolah nih tapi yg dikasih makan gizi gratis ga ada karena ga sekolah putus sekolah karena ortunya kena phk jadinya ga ada duit buat sekolahin anaknya jadinya gmn dong yg makan siapa jadinya | netral | negatif | negatif | mempertanyakan manfaat MBG bagi anak putus sekolah akibat PHK |

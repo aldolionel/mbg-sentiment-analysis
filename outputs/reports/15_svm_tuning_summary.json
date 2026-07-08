@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-07-08T12:52:37",
+  "input_dataset": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\mbg_labeled_sample_1000.csv",
+  "random_state": 42,
+  "dataset": {
+    "total_rows": 1000,
+    "label_distribution": {
+      "negatif": 116,
+      "netral": 472,
+      "positif": 412
+    },
+    "label_percentage": {
+      "negatif": 11.6,
+      "netral": 47.2,
+      "positif": 41.2
+    }
+  },
+  "split": {
+    "train_rows": 800,
+    "test_rows": 200,
+    "test_size": 0.2,
+    "stratify": "label"
+  },
+  "evaluation_priority": "macro F1 is prioritized due to class imbalance",
+  "smote_applied": false,
+  "experiments": {
+    "tuned_linearsvc": {
+      "display_name": "Tuned LinearSVC",
+      "best_cv_macro_f1": 0.692395187299739,
+      "best_params": {
+        "classifier__C": 0.5,
+        "classifier__class_weight": "balanced",
+        "tfidf__max_df": 0.9,
+        "tfidf__min_df": 3,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ],
+        "tfidf__sublinear_tf": true
+      },
+      "test_metrics": {
+        "accuracy": 0.795,
+        "precision_macro": 0.7454772150502041,
+        "recall_macro": 0.7159885397480976,
+        "f1_macro": 0.7277609525922104,
+        "f1_weighted": 0.7930102218661017
+      },
+      "negative_class": {
+        "precision": 0.5789473684210527,
+        "recall": 0.4782608695652174,
+        "f1-score": 0.5238095238095238,
+        "support": 23.0
+      },
+      "confusion_matrix_figure": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\15_confusion_matrix_tuned_linearsvc.png"
+    },
+    "tuned_svc_linear": {
+      "display_name": "Tuned SVC Linear Kernel",
+      "best_cv_macro_f1": 0.6965800402658886,
+      "best_params": {
+        "classifier__C": 1,
+        "classifier__class_weight": "balanced",
+        "tfidf__max_df": 0.9,
+        "tfidf__min_df": 2,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ],
+        "tfidf__sublinear_tf": true
+      },
+      "test_metrics": {
+        "accuracy": 0.795,
+        "precision_macro": 0.7475036322810725,
+        "recall_macro": 0.71376346486577,
+        "f1_macro": 0.7248577277256847,
+        "f1_weighted": 0.7937697725444525
+      },
+      "negative_class": {
+        "precision": 0.55,
+        "recall": 0.4782608695652174,
+        "f1-score": 0.5116279069767442,
+        "support": 23.0
+      },
+      "confusion_matrix_figure": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\15_confusion_matrix_tuned_svc_linear.png"
+    },
+    "tuned_svc_rbf": {
+      "display_name": "Tuned SVC RBF Kernel",
+      "best_cv_macro_f1": 0.691737765999494,
+      "best_params": {
+        "classifier__C": 5,
+        "classifier__class_weight": "balanced",
+        "classifier__gamma": 0.1,
+        "tfidf__max_df": 0.95,
+        "tfidf__min_df": 2,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ],
+        "tfidf__sublinear_tf": true
+      },
+      "test_metrics": {
+        "accuracy": 0.795,
+        "precision_macro": 0.7505574136008919,
+        "recall_macro": 0.7132071961451881,
+        "f1_macro": 0.7247376469967831,
+        "f1_weighted": 0.793735168485999
+      },
+      "negative_class": {
+        "precision": 0.55,
+        "recall": 0.4782608695652174,
+        "f1-score": 0.5116279069767442,
+        "support": 23.0
+      },
+      "confusion_matrix_figure": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\15_confusion_matrix_tuned_svc_rbf.png"
+    }
+  },
+  "class_weight_comparison": {
+    "none": {
+      "experiment": "tuned_svc_linear",
+      "experiment_display_name": "Tuned SVC Linear Kernel",
+      "best_cv_macro_f1": 0.6951157734993515,
+      "cv_macro_f1_std": 0.025233835689780725,
+      "cv_rank": 5,
+      "best_params": {
+        "classifier__C": 2.0,
+        "tfidf__max_df": 0.95,
+        "tfidf__min_df": 2,
+        "tfidf__ngram_range": [
+          1,
+          1
+        ],
+        "tfidf__sublinear_tf": true
+      }
+    },
+    "balanced": {
+      "experiment": "tuned_svc_linear",
+      "experiment_display_name": "Tuned SVC Linear Kernel",
+      "best_cv_macro_f1": 0.6965800402658886,
+      "cv_macro_f1_std": 0.037230598795739075,
+      "cv_rank": 1,
+      "best_params": {
+        "classifier__C": 1.0,
+        "classifier__class_weight": "balanced",
+        "tfidf__max_df": 0.9,
+        "tfidf__min_df": 2,
+        "tfidf__ngram_range": [
+          1,
+          2
+        ],
+        "tfidf__sublinear_tf": true
+      }
+    }
+  },
+  "baseline_reference": {
+    "available": true,
+    "path": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_test_results.csv",
+    "linear_svm": {
+      "model": "linear_svm",
+      "model_display_name": "Linear SVM",
+      "accuracy": 0.765,
+      "precision_macro": 0.7203400347480765,
+      "recall_macro": 0.6828393890346227,
+      "f1_macro": 0.6971243380463393,
+      "f1_weighted": 0.7609177096663441
+    },
+    "logistic_regression": {
+      "model": "logistic_regression",
+      "model_display_name": "Logistic Regression",
+      "accuracy": 0.775,
+      "precision_macro": 0.7164209917833105,
+      "recall_macro": 0.7211400718126173,
+      "f1_macro": 0.7150707178275484,
+      "f1_weighted": 0.7783982894605478
+    }
+  },
+  "comparison_to_logistic_regression_baseline": {
+    "baseline_available": true,
+    "logistic_regression_f1_macro": 0.7150707178275484,
+    "tuned_svm_underperforms": false
+  },
+  "best_svm": {
+    "experiment": "tuned_linearsvc",
+    "experiment_display_name": "Tuned LinearSVC",
+    "selection_metric": "test_f1_macro",
+    "test_f1_macro": 0.7277609525922104,
+    "test_metrics": {
+      "accuracy": 0.795,
+      "precision_macro": 0.7454772150502041,
+      "recall_macro": 0.7159885397480976,
+      "f1_macro": 0.7277609525922104,
+      "f1_weighted": 0.7930102218661017
+    },
+    "best_params": {
+      "classifier__C": 0.5,
+      "classifier__class_weight": "balanced",
+      "tfidf__max_df": 0.9,
+      "tfidf__min_df": 3,
+      "tfidf__ngram_range": [
+        1,
+        2
+      ],
+      "tfidf__sublinear_tf": true
+    },
+    "artifact_path": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_svm_model.joblib",
+    "metadata_path": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_svm_model_metadata.json"
+  },
+  "outputs": {
+    "markdown_report": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\15_svm_tuning_report.md",
+    "summary_json": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\15_svm_tuning_summary.json",
+    "all_cv_results_csv": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\15_svm_tuning_all_cv_results.csv",
+    "test_results_csv": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\15_svm_tuning_test_results.csv",
+    "confusion_matrix_figures": {
+      "tuned_linearsvc": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\15_confusion_matrix_tuned_linearsvc.png",
+      "tuned_svc_linear": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\15_confusion_matrix_tuned_svc_linear.png",
+      "tuned_svc_rbf": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\figures\\15_confusion_matrix_tuned_svc_rbf.png"
+    },
+    "best_model": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_svm_model.joblib",
+    "best_model_metadata": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_svm_model_metadata.json"
+  }
+}

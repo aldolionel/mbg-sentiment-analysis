@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-08T12:52:37",
+  "experiment": "tuned_linearsvc",
+  "experiment_display_name": "Tuned LinearSVC",
+  "selection_metric": "test_f1_macro",
+  "test_metrics": {
+    "accuracy": 0.795,
+    "precision_macro": 0.7454772150502041,
+    "recall_macro": 0.7159885397480976,
+    "f1_macro": 0.7277609525922104,
+    "f1_weighted": 0.7930102218661017
+  },
+  "best_params": {
+    "classifier__C": 0.5,
+    "classifier__class_weight": "balanced",
+    "tfidf__max_df": 0.9,
+    "tfidf__min_df": 3,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ],
+    "tfidf__sublinear_tf": true
+  },
+  "pipeline_steps": [
+    "tfidf",
+    "classifier"
+  ],
+  "input_dataset": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\mbg_labeled_sample_1000.csv",
+  "random_state": 42,
+  "note": "SVM tuning experiment artifact; not final thesis result."
+}

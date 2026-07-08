@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0901,netral,tidak ada polaritas jelas
+label_sample_0902,netral,pertanyaan tanpa polaritas jelas
+label_sample_0903,netral,pertanyaan tanpa polaritas jelas
+label_sample_0904,positif,sinyal positif: bergizi
+label_sample_0905,netral,tidak ada polaritas jelas
+label_sample_0906,netral,tidak ada polaritas jelas
+label_sample_0907,positif,sinyal positif: bergizi
+label_sample_0908,netral,tidak ada polaritas jelas
+label_sample_0909,positif,sinyal positif: baik
+label_sample_0910,positif,sinyal positif: bergizi
+label_sample_0911,netral,pertanyaan tanpa polaritas jelas
+label_sample_0912,netral,pertanyaan tanpa polaritas jelas
+label_sample_0913,positif,"sinyal positif: bergizi, dukung"
+label_sample_0914,positif,"sinyal positif: sehat, dukung"
+label_sample_0915,netral,pertanyaan tanpa polaritas jelas
+label_sample_0916,netral,tidak ada polaritas jelas
+label_sample_0917,netral,tidak ada polaritas jelas
+label_sample_0918,positif,sinyal positif: bagus
+label_sample_0919,netral,"campuran atau ambigu, perlu review"
+label_sample_0920,negatif,sinyal negatif: buang
+label_sample_0921,positif,"sinyal positif: solusi, tepat"
+label_sample_0922,netral,tidak ada polaritas jelas
+label_sample_0923,netral,tidak ada polaritas jelas
+label_sample_0924,netral,tidak ada polaritas jelas
+label_sample_0925,netral,pertanyaan tanpa polaritas jelas
+label_sample_0926,negatif,"sinyal negatif: basi, korupsi"
+label_sample_0927,positif,"sinyal positif: baik, sehat"
+label_sample_0928,netral,tidak ada polaritas jelas
+label_sample_0929,netral,pertanyaan tanpa polaritas jelas
+label_sample_0930,positif,"sinyal positif: sehat, bergizi, dukung"
+label_sample_0931,netral,tidak ada polaritas jelas
+label_sample_0932,positif,"sinyal positif: sehat, bergizi"
+label_sample_0933,netral,tidak ada polaritas jelas
+label_sample_0934,netral,pertanyaan tanpa polaritas jelas
+label_sample_0935,netral,pertanyaan tanpa polaritas jelas
+label_sample_0936,netral,tidak ada polaritas jelas
+label_sample_0937,positif,"sinyal positif: sehat, harapan"
+label_sample_0938,positif,sinyal positif: bergizi
+label_sample_0939,positif,sinyal positif: bergizi
+label_sample_0940,netral,pertanyaan tanpa polaritas jelas
+label_sample_0941,positif,"sinyal positif: sehat, bergizi"
+label_sample_0942,positif,sinyal positif: apresiasi
+label_sample_0943,positif,sinyal positif: bergizi
+label_sample_0944,positif,"sinyal positif: sehat, bergizi"
+label_sample_0945,netral,tidak ada polaritas jelas
+label_sample_0946,netral,"campuran atau ambigu, perlu review"
+label_sample_0947,netral,pertanyaan tanpa polaritas jelas
+label_sample_0948,netral,tidak ada polaritas jelas
+label_sample_0949,netral,tidak ada polaritas jelas
+label_sample_0950,netral,tidak ada polaritas jelas

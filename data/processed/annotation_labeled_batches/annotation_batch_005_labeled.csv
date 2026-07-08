@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0201,netral,tidak ada polaritas jelas
+label_sample_0202,positif,sinyal positif: baik
+label_sample_0203,netral,tidak ada polaritas jelas
+label_sample_0204,positif,"sinyal positif: bergizi, dukung"
+label_sample_0205,positif,"sinyal positif: sehat, bergizi"
+label_sample_0206,netral,tidak ada polaritas jelas
+label_sample_0207,positif,"sinyal positif: bergizi, dukung"
+label_sample_0208,netral,tidak ada polaritas jelas
+label_sample_0209,positif,sinyal positif: apresiasi
+label_sample_0210,netral,tidak ada polaritas jelas
+label_sample_0211,netral,tidak ada polaritas jelas
+label_sample_0212,positif,sinyal positif: bergizi
+label_sample_0213,positif,sinyal positif: bagus
+label_sample_0214,netral,tidak ada polaritas jelas
+label_sample_0215,netral,tidak ada polaritas jelas
+label_sample_0216,netral,tidak ada polaritas jelas
+label_sample_0217,positif,sinyal positif: dukung
+label_sample_0218,netral,tidak ada polaritas jelas
+label_sample_0219,netral,tidak ada polaritas jelas
+label_sample_0220,positif,"sinyal positif: dukung, bermanfaat"
+label_sample_0221,netral,tidak ada polaritas jelas
+label_sample_0222,netral,tidak ada polaritas jelas
+label_sample_0223,netral,tidak ada polaritas jelas
+label_sample_0224,netral,tidak ada polaritas jelas
+label_sample_0225,netral,tidak ada polaritas jelas
+label_sample_0226,netral,tidak ada polaritas jelas
+label_sample_0227,positif,sinyal positif: solusi
+label_sample_0228,netral,tidak ada polaritas jelas
+label_sample_0229,netral,tidak ada polaritas jelas
+label_sample_0230,netral,tidak ada polaritas jelas
+label_sample_0231,netral,tidak ada polaritas jelas
+label_sample_0232,positif,"sinyal positif: bergizi, dukung"
+label_sample_0233,netral,tidak ada polaritas jelas
+label_sample_0234,negatif,sinyal negatif: basi
+label_sample_0235,netral,tidak ada polaritas jelas
+label_sample_0236,positif,sinyal positif: bergizi
+label_sample_0237,netral,tidak ada polaritas jelas
+label_sample_0238,positif,sinyal positif: bergizi
+label_sample_0239,netral,tidak ada polaritas jelas
+label_sample_0240,positif,sinyal positif: sehat
+label_sample_0241,positif,"sinyal positif: sehat, dukung"
+label_sample_0242,netral,tidak ada polaritas jelas
+label_sample_0243,netral,tidak ada polaritas jelas
+label_sample_0244,netral,tidak ada polaritas jelas
+label_sample_0245,netral,tidak ada polaritas jelas
+label_sample_0246,netral,tidak ada polaritas jelas
+label_sample_0247,netral,pertanyaan tanpa polaritas jelas
+label_sample_0248,netral,tidak ada polaritas jelas
+label_sample_0249,netral,tidak ada polaritas jelas
+label_sample_0250,positif,sinyal positif: sehat

@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-07-08T14:10:26",
+  "source_files": {
+    "baseline_summary": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_baseline_summary.json",
+    "baseline_test_results": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\14_modeling_test_results.csv",
+    "svm_tuning_summary": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\15_svm_tuning_summary.json",
+    "svm_tuning_test_results": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\15_svm_tuning_test_results.csv",
+    "best_svm_metadata": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_svm_model_metadata.json"
+  },
+  "dataset": {
+    "total_rows": 1000,
+    "dropped_missing_count": 0,
+    "label_distribution": {
+      "negatif": 116,
+      "netral": 472,
+      "positif": 412
+    },
+    "label_percentage": {
+      "negatif": 11.6,
+      "netral": 47.2,
+      "positif": 41.2
+    }
+  },
+  "split": {
+    "train_rows": 800,
+    "test_rows": 200,
+    "test_size": 0.2,
+    "stratify": "label"
+  },
+  "selection_metric": "f1_macro",
+  "best_overall_model": {
+    "model_group": "Tuned SVM",
+    "model_name": "Tuned LinearSVC",
+    "metrics": {
+      "accuracy": 0.795,
+      "precision_macro": 0.7454772150502041,
+      "recall_macro": 0.7159885397480976,
+      "f1_macro": 0.7277609525922104,
+      "f1_weighted": 0.7930102218661017
+    }
+  },
+  "best_svm_model": {
+    "model_group": "Tuned SVM",
+    "model_name": "Tuned LinearSVC",
+    "metrics": {
+      "accuracy": 0.795,
+      "precision_macro": 0.7454772150502041,
+      "recall_macro": 0.7159885397480976,
+      "f1_macro": 0.7277609525922104,
+      "f1_weighted": 0.7930102218661017
+    },
+    "best_params": {
+      "classifier__C": 0.5,
+      "classifier__class_weight": "balanced",
+      "tfidf__max_df": 0.9,
+      "tfidf__min_df": 3,
+      "tfidf__ngram_range": [
+        1,
+        2
+      ],
+      "tfidf__sublinear_tf": true
+    },
+    "metadata_path": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\models\\best_svm_model_metadata.json"
+  },
+  "logistic_regression_baseline_f1_macro": 0.7150707178275484,
+  "best_svm_beats_logistic_regression_baseline": true,
+  "linear_svm_improvement": {
+    "baseline_linear_svm_f1_macro": 0.6971243380463393,
+    "tuned_linearsvc_f1_macro": 0.7277609525922104,
+    "absolute_improvement": 0.030636614545871077,
+    "percentage_point_improvement": 3.0636614545871077
+  },
+  "negative_class_performance": {
+    "tuned_linearsvc": {
+      "precision": 0.5789473684210527,
+      "recall": 0.4782608695652174,
+      "f1-score": 0.5238095238095238,
+      "support": 23.0
+    },
+    "tuned_svc_linear": {
+      "precision": 0.55,
+      "recall": 0.4782608695652174,
+      "f1-score": 0.5116279069767442,
+      "support": 23.0
+    },
+    "tuned_svc_rbf": {
+      "precision": 0.55,
+      "recall": 0.4782608695652174,
+      "f1-score": 0.5116279069767442,
+      "support": 23.0
+    }
+  },
+  "recommendation": "Tuned LinearSVC + TF-IDF",
+  "outputs": {
+    "markdown_report": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\16_final_modeling_comparison.md",
+    "summary_json": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\16_final_modeling_comparison_summary.json",
+    "comparison_table_csv": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\16_final_modeling_comparison_table.csv"
+  }
+}

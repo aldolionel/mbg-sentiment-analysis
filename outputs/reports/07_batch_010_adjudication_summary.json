@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-07-07T21:59:23",
+  "batch_id": "010",
+  "original_rows": 50,
+  "adjudication_rows": 2,
+  "adjudicated_rows": 50,
+  "changed_label_rows": 1,
+  "label_distribution_before": {
+    "positif": 26,
+    "netral": 22,
+    "negatif": 2
+  },
+  "label_distribution_after": {
+    "positif": 26,
+    "netral": 21,
+    "negatif": 3
+  },
+  "human_label_valid_used": 2,
+  "final_label_valid_used": 0,
+  "fallback_to_current_label": 0,
+  "validation_checks": {
+    "final labels are allowed values": true,
+    "no missing final labels": true,
+    "no duplicate sample_id in adjudication": true,
+    "all adjudication sample_id values exist in labeled batch": true,
+    "all adjudication sample_id values exist in semantic review": true
+  },
+  "all_checks_passed": true
+}

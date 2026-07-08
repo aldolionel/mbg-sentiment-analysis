@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-06T23:19:49",
+  "scope": "Analisis Sentimen Publik terhadap Program Makan Bergizi Gratis (MBG) pada Media Sosial Menggunakan Support Vector Machine (SVM)",
+  "batch_id": "annotation_batch_001",
+  "rows": 50,
+  "label_counts": {
+    "netral": 23,
+    "negatif": 15,
+    "positif": 12
+  },
+  "needs_manual_review_count": 24,
+  "needs_manual_review_rate": 0.48,
+  "short_text_count": 7,
+  "review_status_counts": {
+    "ok": 26,
+    "review": 24
+  }
+}

@@ -1,0 +1,11 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label,current_label_normalized,human_label_normalized,final_label_normalized,final_label_source
+label_sample_0051,betul program mbg,netral,tidak ada polaritas jelas,teks sangat pendek,positif,"struktur kalimat tidak jelas tapi kalau dirangkai ulang mungkin hasilnya ""program mbg bagus""",positif,netral,positif,positif,human_label
+label_sample_0053,thiakhane rek,netral,tidak ada polaritas jelas,teks sangat pendek,netral,ok,netral,netral,netral,netral,human_label
+label_sample_0057,berasa mbg,netral,tidak ada polaritas jelas,teks sangat pendek,netral,ok,netral,netral,netral,netral,human_label
+label_sample_0058,mbg guys yokk,netral,tidak ada polaritas jelas,teks sangat pendek,positif,cukup clear,positif,netral,positif,positif,human_label
+label_sample_0075,kerby kerby kerby,netral,tidak ada polaritas jelas,teks sangat pendek,netral,ok,netral,netral,netral,netral,human_label
+label_sample_0083,apa nanti ke mbg ya,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,netral,ok,netral,netral,netral,netral,human_label
+label_sample_0084,mikirin mbg ga kelarâ kapan mau mikir yg lain,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,"komen typo, maksudnya mikir mbg nggak selesai-selesai gmn mau mikir yang lain",negatif,netral,negatif,negatif,human_label
+label_sample_0090,apaka intense seizecontroldlsu,netral,tidak ada polaritas jelas,teks sangat pendek,netral,ok,netral,netral,netral,netral,human_label
+label_sample_0091,batalkan program mbg,netral,tidak ada polaritas jelas,teks sangat pendek,negatif,"jelas, penolakan pada program",negatif,netral,negatif,negatif,human_label
+label_sample_0093,boonk dpt mbg,netral,tidak ada polaritas jelas,teks sangat pendek,netral,ok,netral,netral,netral,netral,human_label

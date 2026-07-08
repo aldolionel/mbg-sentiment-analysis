@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0001,netral,teks ambigu tanpa polaritas jelas
+label_sample_0002,positif,apresiasi terhadap dukungan program
+label_sample_0003,netral,informasi penyaluran tanpa opini jelas
+label_sample_0004,negatif,kritik prioritas anggaran
+label_sample_0005,netral,informasi simulasi tanpa opini
+label_sample_0006,negatif,sarkasme negatif soal kualitas makanan
+label_sample_0007,netral,informasi menu tanpa opini
+label_sample_0008,netral,tidak relevan atau konteks tidak jelas
+label_sample_0009,negatif,penolakan terhadap pencetus program
+label_sample_0010,positif,ucapan terima kasih terhadap mbg
+label_sample_0011,netral,tidak relevan atau konteks tidak jelas
+label_sample_0012,negatif,kritik kualitas gizi mbg
+label_sample_0013,negatif,kritik politik terkait mbg
+label_sample_0014,positif,dukungan terhadap manfaat gizi pelajar
+label_sample_0015,netral,informasi program dimulai
+label_sample_0016,positif,apresiasi terhadap pencapaian mbg
+label_sample_0017,netral,candaan tanpa polaritas jelas
+label_sample_0018,negatif,keluhan atau kekhawatiran terkait mbg
+label_sample_0019,netral,tidak relevan atau konteks tidak jelas
+label_sample_0020,negatif,sarkasme politik terkait mbg
+label_sample_0021,positif,dukungan manfaat kesehatan anak
+label_sample_0022,netral,perbandingan tanpa polaritas jelas
+label_sample_0023,netral,candaan tanpa polaritas jelas
+label_sample_0024,positif,persepsi manfaat mencegah stunting
+label_sample_0025,negatif,keluhan distribusi tidak mendapat mbg
+label_sample_0026,netral,teks terlalu pendek atau tidak jelas
+label_sample_0027,negatif,kekhawatiran populisme dan anggaran
+label_sample_0028,netral,pertanyaan tanpa polaritas jelas
+label_sample_0029,netral,informasi ajakan mendukung program
+label_sample_0030,positif,apresiasi terhadap mbg
+label_sample_0031,positif,apresiasi program sebagai langkah brilian
+label_sample_0032,netral,saran atau topik bahan pangan tanpa opini jelas
+label_sample_0033,negatif,kritik prioritas pendidikan dibanding mbg
+label_sample_0034,positif,dukungan karena program terus berjalan
+label_sample_0035,netral,pertanyaan tanpa polaritas jelas
+label_sample_0036,negatif,sarkasme negatif soal kandungan makanan
+label_sample_0037,negatif,kritik prioritas pemerintah
+label_sample_0038,netral,tidak relevan dengan program mbg
+label_sample_0039,netral,pernyataan informatif tanpa opini jelas
+label_sample_0040,netral,pernyataan faktual tanpa polaritas jelas
+label_sample_0041,positif,dukungan terhadap makan bergizi anak bangsa
+label_sample_0042,negatif,sarkasme negatif soal solusi kemiskinan
+label_sample_0043,netral,pertanyaan tanpa polaritas jelas
+label_sample_0044,netral,teks ambigu tanpa polaritas jelas
+label_sample_0045,negatif,kritik kualitas makanan
+label_sample_0046,netral,tidak relevan atau konteks tidak jelas
+label_sample_0047,positif,ekspresi positif terhadap makan bergizi gratis
+label_sample_0048,negatif,kritik kasar terhadap makanan mbg
+label_sample_0049,netral,tidak relevan atau konteks tidak jelas
+label_sample_0050,positif,optimisme terhadap masa depan bersama mbg

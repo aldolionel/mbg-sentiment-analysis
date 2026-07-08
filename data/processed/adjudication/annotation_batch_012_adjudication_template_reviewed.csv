@@ -1,0 +1,4 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label
+label_sample_0554,pemimpin dunia mana yang mau belajar mbg dari indonesia cepat kau kasih tau mana siapa yeuu kocak,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,mengejek klaim dunia belajar MBG,negatif
+label_sample_0574,mari kita lihat siapa ajah investornya boleh spill dan ihsg anjlok karena invest ke mbg ups,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,mengaitkan MBG dengan investor/IHSG secara sinis,negatif
+label_sample_0595,lagi kepikiran kan yg dapet mbg kan anak sekolah ya trs yg ga sekolah ttp dapet apa ga ya,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,negatif,mempertanyakan cakupan penerima di luar anak sekolah,negatif

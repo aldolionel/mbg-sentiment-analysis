@@ -1,0 +1,51 @@
+sample_id,clean_text,label,labeling_notes,word_count,semantic_review_notes,needs_manual_review,semantic_review_status
+label_sample_0301,dana mbg hadir pendidikan tetap adem sinergimencerdaskanbangsa,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0302,kebijakan mbg di papua diapresiasi warga harap dampaknya bisa jauh ke depan,positif,sinyal positif: apresiasi,12,,False,ok
+label_sample_0303,makan bergizi gratis mantap jiwa semua bisa dapat makanan sehat makanbergiziponpes,positif,"sinyal positif: mantap, sehat, bergizi",11,,False,ok
+label_sample_0304,siswa sd di sukoharjo keracunan mbg dpr jangan digeneralisir jadi sebuah kegagalan,netral,tidak ada polaritas jelas,12,,False,ok
+label_sample_0305,mbok uwess ah mbg teroos negara genting kayak gini masih aja mbg,netral,tidak ada polaritas jelas,12,,False,ok
+label_sample_0306,sudah kudugem makan bergizi gratis bakalan ada kasus keracunan tipikal konoha,positif,sinyal positif: bergizi,11,,False,ok
+label_sample_0307,sok peduli anak global dulu aja bikin program mbg bt anak indonesia diejekk,netral,tidak ada polaritas jelas,13,,False,ok
+label_sample_0308,ragil gojo lihat dengar pahami sabrina siang makan bergizi gratis,positif,sinyal positif: bergizi,10,,False,ok
+label_sample_0309,generasi sehat dimulai dari dukungan kita semua untuk papua barat daya dengan mbg,positif,"sinyal positif: sehat, dukung",13,,False,ok
+label_sample_0310,perancis suruh lihat menu mbg yg minimalis kalau nggak nangis,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0311,kalo anggaran mbg dipotong bisa bisa jatah makannya cuman ribu rupiah dong,netral,tidak ada polaritas jelas,12,,False,ok
+label_sample_0312,keberhasilan mbg bergantung pada integritas dan akuntabilitas,netral,tidak ada polaritas jelas,7,,False,ok
+label_sample_0313,anggota dpr dorong pemerintah kuatkan pengawasan makanan dalam mbg,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0314,makan bergizi gratis itu jadi taktik perang dagang dgn amrik tak tik apaan tuh,positif,sinyal positif: bergizi,14,,False,ok
+label_sample_0315,langkah prabowo dengan makan bergizi gratis adalah solusi hebat,positif,"sinyal positif: solusi, bergizi",9,,False,ok
+label_sample_0316,pokoknya tim mbg dan umkm bikin hidup sehat itu jadi lebih realistis umkmdukungmbg,positif,"sinyal positif: sehat, dukung",13,,False,ok
+label_sample_0317,muncul usulan makan bergizi gratis minta dibiayai zakat pan berikan respon,positif,sinyal positif: bergizi,11,,False,ok
+label_sample_0318,kali aja jadi staf khusus buat nakut in anak yg gak mau makan mbg,netral,tidak ada polaritas jelas,14,,False,ok
+label_sample_0319,program makan bergizi gratis menurunkan angka stunting di papua papuasejahtera,positif,sinyal positif: bergizi,10,,False,ok
+label_sample_0320,wakil presiden terpilih uji coba program mbg di kota tangerang,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0321,generasi sehat bukan sekedar wacana dengan adanya program makan bergizi gratis ini,positif,"sinyal positif: sehat, bergizi",12,,False,ok
+label_sample_0322,mbg memicu perkembangan pesat anak papua ke arah lebih baik,positif,sinyal positif: baik,10,,False,ok
+label_sample_0323,bukan soal modal tapi strategi mbg kasih insight nya mbgdorongekonomi,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0324,puasaa yuk dengan makan bergizi gratis ayo dukung agar tetap jalan,positif,"sinyal positif: bergizi, dukung",11,,False,ok
+label_sample_0325,program makan bergizi gratis untuk anak anak indonesia penuhigiziindonesia,positif,sinyal positif: bergizi,9,,False,ok
+label_sample_0326,ã ã pada baik bgtt full dpt makan enakk dan bneran gratiss rill mbg,positif,sinyal positif: baik,14,,False,ok
+label_sample_0327,presiden yakinkan program mbg tersalur meski banjir melanda,netral,tidak ada polaritas jelas,8,,False,ok
+label_sample_0328,jubir kepresidenan menu susu di mbg diprioritaskan bagi daerah penghasil,netral,tidak ada polaritas jelas,10,,False,ok
+label_sample_0329,keracunan usai konsumsi mbg belasan murid sd di takalar dilarikan ke puskesmas,netral,tidak ada polaritas jelas,12,,False,ok
+label_sample_0330,kodim oku panen sayur dukung program makan bergizi gratis untuk masyarakat,positif,"sinyal positif: bergizi, dukung",11,,False,ok
+label_sample_0331,ya kali udh dukung mbg sampe berani keluar kata tabok ga diangkat,positif,sinyal positif: dukung,12,,False,ok
+label_sample_0332,iya kan pak kasih lah mereka ini makan bergizi gratis biar ga stunting otaknya,positif,sinyal positif: bergizi,14,,False,ok
+label_sample_0333,daripada bayar buzzer bot mending cairin gaji pegawai mbg ya min,netral,tidak ada polaritas jelas,11,,False,ok
+label_sample_0334,mbg lebih parah daripada pandemi covid waktu covid aja tetep cair,netral,tidak ada polaritas jelas,11,,False,ok
+label_sample_0335,umkm ngeluarin peran penting untuk bantu makan bergizi gratis umkmdukungmbg,positif,"sinyal positif: bergizi, dukung",10,,False,ok
+label_sample_0336,intip menu makan bergizi gratis hingga proses pembagiannya ke siswa di makassar,positif,sinyal positif: bergizi,12,,False,ok
+label_sample_0337,mirip siapa gitu yaa digencarkan program mbg ketimbang pendidikan gratis lagulama,netral,pertanyaan tanpa polaritas jelas,11,catatan menunjukkan konteks ambigu/informatif,True,review
+label_sample_0338,presiden ambil tindakan nyata agar mbg tetap ada di masa banjir,netral,tidak ada polaritas jelas,11,,False,ok
+label_sample_0339,almuniza banda aceh siap laksanakan program makan bergizi gratis,positif,sinyal positif: bergizi,9,,False,ok
+label_sample_0340,ketua bgn ungkap faktor kunci sukses program makan bergizi gratis,positif,sinyal positif: bergizi,10,,False,ok
+label_sample_0341,gerakan program mbg papua barat bawa angin segar untuk masa depan sehat,positif,sinyal positif: sehat,12,,False,ok
+label_sample_0342,potensi mo di betak untuk kemana lagi si untuk mbg yang ga seberapa itu,netral,tidak ada polaritas jelas,14,,False,ok
+label_sample_0343,program mbg jadi makin ciamik berkat kontribusi cerdas dari umkm umkmdukungmbg,positif,sinyal positif: dukung,11,,False,ok
+label_sample_0344,mbg makan bergizi gratis ï x f makan bersyukur gratis ï x f,positif,sinyal positif: bergizi,13,,False,ok
+label_sample_0345,presiden punya tindak lanjut pastikan mbg di wilayah banjir,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0346,berarti makan siang gratis harusnya gak rb ya per porsi biar dpt yg bergizi,positif,sinyal positif: bergizi,14,,False,ok
+label_sample_0347,atau mbg yang t hr pdhl mbg seminggu bisa buat beli vaksin setahun,netral,tidak ada polaritas jelas,13,,False,ok
+label_sample_0348,mbg bantu umkm capai potensi maksimalnya tanpa batas mbgdorongekonomi,netral,tidak ada polaritas jelas,9,,False,ok
+label_sample_0349,salut buat semua yang udah saling support untuk kesuksesan mbg papua,netral,tidak ada polaritas jelas,11,,False,ok
+label_sample_0350,politik gak ngaruh ke kehidupan kita makan noh mbg minyak oplosan dll,netral,tidak ada polaritas jelas,12,,False,ok

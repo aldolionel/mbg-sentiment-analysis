@@ -1,0 +1,773 @@
+{
+  "generated_at": "2026-07-07T21:59:47",
+  "batch_ids": [
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "018",
+    "019",
+    "020"
+  ],
+  "total_batches": 18,
+  "total_adjudicated_rows": 900,
+  "total_adjudication_rows": 104,
+  "total_changed_label_rows": 68,
+  "label_distribution_after_overall": {
+    "netral": 416,
+    "positif": 388,
+    "negatif": 96
+  },
+  "preflight_checks": {
+    "003": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "004": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "005": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "006": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "007": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "008": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "009": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "010": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "011": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "012": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "013": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "014": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "015": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "016": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "017": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "018": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "019": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    },
+    "020": {
+      "row count > 0": true,
+      "no missing sample_id": true,
+      "no duplicate sample_id": true,
+      "human_label values are allowed labels": true,
+      "final_label values are allowed labels": true
+    }
+  },
+  "import_results": {
+    "003": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_003_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_003_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:07",
+        "batch_id": "003",
+        "original_rows": 50,
+        "adjudication_rows": 6,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 0,
+        "label_distribution_before": {
+          "netral": 39,
+          "positif": 8,
+          "negatif": 3
+        },
+        "label_distribution_after": {
+          "netral": 39,
+          "positif": 8,
+          "negatif": 3
+        },
+        "human_label_valid_used": 6,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "004": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_004_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_004_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:09",
+        "batch_id": "004",
+        "original_rows": 50,
+        "adjudication_rows": 13,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 4,
+        "label_distribution_before": {
+          "netral": 41,
+          "positif": 9
+        },
+        "label_distribution_after": {
+          "netral": 37,
+          "positif": 9,
+          "negatif": 4
+        },
+        "human_label_valid_used": 13,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "005": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_005_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_005_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:11",
+        "batch_id": "005",
+        "original_rows": 50,
+        "adjudication_rows": 2,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 2,
+        "label_distribution_before": {
+          "netral": 33,
+          "positif": 16,
+          "negatif": 1
+        },
+        "label_distribution_after": {
+          "netral": 31,
+          "positif": 16,
+          "negatif": 3
+        },
+        "human_label_valid_used": 2,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "006": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_006_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_006_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:14",
+        "batch_id": "006",
+        "original_rows": 50,
+        "adjudication_rows": 2,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 2,
+        "label_distribution_before": {
+          "netral": 26,
+          "positif": 23,
+          "negatif": 1
+        },
+        "label_distribution_after": {
+          "netral": 24,
+          "positif": 23,
+          "negatif": 3
+        },
+        "human_label_valid_used": 2,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "007": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_007_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_007_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:16",
+        "batch_id": "007",
+        "original_rows": 50,
+        "adjudication_rows": 1,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 1,
+        "label_distribution_before": {
+          "positif": 26,
+          "netral": 24
+        },
+        "label_distribution_after": {
+          "positif": 26,
+          "netral": 23,
+          "negatif": 1
+        },
+        "human_label_valid_used": 1,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "008": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_008_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_008_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:18",
+        "batch_id": "008",
+        "original_rows": 50,
+        "adjudication_rows": 3,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 2,
+        "label_distribution_before": {
+          "netral": 29,
+          "positif": 20,
+          "negatif": 1
+        },
+        "label_distribution_after": {
+          "netral": 27,
+          "positif": 20,
+          "negatif": 3
+        },
+        "human_label_valid_used": 3,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "009": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_009_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_009_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:21",
+        "batch_id": "009",
+        "original_rows": 50,
+        "adjudication_rows": 2,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 2,
+        "label_distribution_before": {
+          "netral": 28,
+          "positif": 22
+        },
+        "label_distribution_after": {
+          "netral": 26,
+          "positif": 22,
+          "negatif": 2
+        },
+        "human_label_valid_used": 2,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "010": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_010_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_010_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:23",
+        "batch_id": "010",
+        "original_rows": 50,
+        "adjudication_rows": 2,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 1,
+        "label_distribution_before": {
+          "positif": 26,
+          "netral": 22,
+          "negatif": 2
+        },
+        "label_distribution_after": {
+          "positif": 26,
+          "netral": 21,
+          "negatif": 3
+        },
+        "human_label_valid_used": 2,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "011": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_011_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_011_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:25",
+        "batch_id": "011",
+        "original_rows": 50,
+        "adjudication_rows": 2,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 1,
+        "label_distribution_before": {
+          "positif": 28,
+          "netral": 22
+        },
+        "label_distribution_after": {
+          "positif": 28,
+          "netral": 21,
+          "negatif": 1
+        },
+        "human_label_valid_used": 2,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "012": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_012_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_012_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:28",
+        "batch_id": "012",
+        "original_rows": 50,
+        "adjudication_rows": 3,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 3,
+        "label_distribution_before": {
+          "positif": 25,
+          "netral": 24,
+          "negatif": 1
+        },
+        "label_distribution_after": {
+          "positif": 25,
+          "netral": 21,
+          "negatif": 4
+        },
+        "human_label_valid_used": 3,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "013": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_013_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_013_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:30",
+        "batch_id": "013",
+        "original_rows": 50,
+        "adjudication_rows": 3,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 1,
+        "label_distribution_before": {
+          "positif": 27,
+          "netral": 21,
+          "negatif": 2
+        },
+        "label_distribution_after": {
+          "positif": 27,
+          "netral": 20,
+          "negatif": 3
+        },
+        "human_label_valid_used": 3,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "014": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_014_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_014_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:32",
+        "batch_id": "014",
+        "original_rows": 50,
+        "adjudication_rows": 7,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 6,
+        "label_distribution_before": {
+          "positif": 24,
+          "netral": 22,
+          "negatif": 4
+        },
+        "label_distribution_after": {
+          "positif": 24,
+          "netral": 16,
+          "negatif": 10
+        },
+        "human_label_valid_used": 7,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "015": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_015_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_015_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:35",
+        "batch_id": "015",
+        "original_rows": 50,
+        "adjudication_rows": 4,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 3,
+        "label_distribution_before": {
+          "positif": 23,
+          "netral": 23,
+          "negatif": 4
+        },
+        "label_distribution_after": {
+          "positif": 23,
+          "netral": 20,
+          "negatif": 7
+        },
+        "human_label_valid_used": 4,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "016": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_016_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_016_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:37",
+        "batch_id": "016",
+        "original_rows": 50,
+        "adjudication_rows": 9,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 7,
+        "label_distribution_before": {
+          "netral": 25,
+          "positif": 23,
+          "negatif": 2
+        },
+        "label_distribution_after": {
+          "positif": 23,
+          "netral": 18,
+          "negatif": 9
+        },
+        "human_label_valid_used": 9,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "017": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_017_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_017_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:39",
+        "batch_id": "017",
+        "original_rows": 50,
+        "adjudication_rows": 11,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 9,
+        "label_distribution_before": {
+          "netral": 24,
+          "positif": 23,
+          "negatif": 3
+        },
+        "label_distribution_after": {
+          "positif": 26,
+          "netral": 15,
+          "negatif": 9
+        },
+        "human_label_valid_used": 11,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "018": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_018_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_018_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:42",
+        "batch_id": "018",
+        "original_rows": 50,
+        "adjudication_rows": 11,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 8,
+        "label_distribution_before": {
+          "netral": 28,
+          "positif": 19,
+          "negatif": 3
+        },
+        "label_distribution_after": {
+          "positif": 21,
+          "netral": 20,
+          "negatif": 9
+        },
+        "human_label_valid_used": 11,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "019": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_019_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_019_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:44",
+        "batch_id": "019",
+        "original_rows": 50,
+        "adjudication_rows": 13,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 7,
+        "label_distribution_before": {
+          "netral": 30,
+          "positif": 18,
+          "negatif": 2
+        },
+        "label_distribution_after": {
+          "netral": 23,
+          "positif": 18,
+          "negatif": 9
+        },
+        "human_label_valid_used": 13,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    },
+    "020": {
+      "returncode": 0,
+      "stdout": "Adjudicated batch saved to: data\\processed\\annotation_labeled_batches\\annotation_batch_020_adjudicated.csv\nReport saved to: outputs\\reports\\07_batch_020_adjudication_report.md\n",
+      "stderr": "",
+      "summary": {
+        "generated_at": "2026-07-07T21:59:47",
+        "batch_id": "020",
+        "original_rows": 50,
+        "adjudication_rows": 10,
+        "adjudicated_rows": 50,
+        "changed_label_rows": 9,
+        "label_distribution_before": {
+          "netral": 23,
+          "positif": 23,
+          "negatif": 4
+        },
+        "label_distribution_after": {
+          "positif": 23,
+          "netral": 14,
+          "negatif": 13
+        },
+        "human_label_valid_used": 10,
+        "final_label_valid_used": 0,
+        "fallback_to_current_label": 0,
+        "validation_checks": {
+          "final labels are allowed values": true,
+          "no missing final labels": true,
+          "no duplicate sample_id in adjudication": true,
+          "all adjudication sample_id values exist in labeled batch": true,
+          "all adjudication sample_id values exist in semantic review": true
+        },
+        "all_checks_passed": true
+      }
+    }
+  },
+  "all_preflight_checks_passed": true,
+  "all_import_commands_succeeded": true,
+  "all_batch_import_checks_passed": true
+}

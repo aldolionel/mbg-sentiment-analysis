@@ -1,0 +1,51 @@
+sample_id,label,labeling_notes
+label_sample_0351,positif,sinyal positif: bergizi
+label_sample_0352,netral,tidak ada polaritas jelas
+label_sample_0353,netral,tidak ada polaritas jelas
+label_sample_0354,netral,tidak ada polaritas jelas
+label_sample_0355,positif,sinyal positif: bergizi
+label_sample_0356,netral,tidak ada polaritas jelas
+label_sample_0357,netral,tidak ada polaritas jelas
+label_sample_0358,positif,sinyal positif: bergizi
+label_sample_0359,netral,tidak ada polaritas jelas
+label_sample_0360,positif,sinyal positif: mantap
+label_sample_0361,positif,sinyal positif: tepat
+label_sample_0362,positif,sinyal positif: bergizi
+label_sample_0363,netral,tidak ada polaritas jelas
+label_sample_0364,positif,"sinyal positif: bagus, sehat"
+label_sample_0365,positif,"sinyal positif: sehat, dukung"
+label_sample_0366,netral,tidak ada polaritas jelas
+label_sample_0367,positif,sinyal positif: dukung
+label_sample_0368,netral,tidak ada polaritas jelas
+label_sample_0369,positif,sinyal positif: dukung
+label_sample_0370,netral,tidak ada polaritas jelas
+label_sample_0371,netral,tidak ada polaritas jelas
+label_sample_0372,netral,tidak ada polaritas jelas
+label_sample_0373,netral,tidak ada polaritas jelas
+label_sample_0374,netral,tidak ada polaritas jelas
+label_sample_0375,positif,sinyal positif: apresiasi
+label_sample_0376,positif,sinyal positif: bergizi
+label_sample_0377,positif,sinyal positif: solusi
+label_sample_0378,netral,tidak ada polaritas jelas
+label_sample_0379,netral,tidak ada polaritas jelas
+label_sample_0380,netral,tidak ada polaritas jelas
+label_sample_0381,netral,tidak ada polaritas jelas
+label_sample_0382,positif,sinyal positif: solusi
+label_sample_0383,positif,sinyal positif: sehat
+label_sample_0384,netral,tidak ada polaritas jelas
+label_sample_0385,netral,pertanyaan tanpa polaritas jelas
+label_sample_0386,netral,pertanyaan tanpa polaritas jelas
+label_sample_0387,netral,tidak ada polaritas jelas
+label_sample_0388,netral,tidak ada polaritas jelas
+label_sample_0389,netral,tidak ada polaritas jelas
+label_sample_0390,negatif,sinyal negatif: basi
+label_sample_0391,netral,tidak ada polaritas jelas
+label_sample_0392,positif,"sinyal positif: bergizi, apresiasi"
+label_sample_0393,netral,tidak ada polaritas jelas
+label_sample_0394,positif,"sinyal positif: sehat, bergizi"
+label_sample_0395,netral,pertanyaan tanpa polaritas jelas
+label_sample_0396,netral,tidak ada polaritas jelas
+label_sample_0397,netral,tidak ada polaritas jelas
+label_sample_0398,positif,sinyal positif: dukung
+label_sample_0399,positif,sinyal positif: dukung
+label_sample_0400,positif,sinyal positif: sehat

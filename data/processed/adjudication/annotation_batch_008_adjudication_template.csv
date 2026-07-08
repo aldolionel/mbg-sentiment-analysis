@@ -1,0 +1,4 @@
+sample_id,clean_text,current_label,labeling_notes,review_reason,human_label,human_notes,final_label
+label_sample_0385,iya yg saya heran tuh kata merata maksudnya apa sih sdh merata semua daerah dpt mbg,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,
+label_sample_0386,solaria di mbg ni pindah apa gimana sii udh muter tetep gak nemu,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,
+label_sample_0395,yaallah makan gratis bergizi dari mana gue yg liatnya aja gak nafsu apalagi anak,netral,pertanyaan tanpa polaritas jelas,catatan menunjukkan konteks ambigu/informatif,,,

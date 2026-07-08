@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-07-07T21:43:12",
+  "batch_range": "003-020",
+  "input_files": [
+    "data\\processed\\adjudication\\annotation_batch_003_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_004_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_005_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_006_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_007_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_008_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_009_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_010_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_011_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_012_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_013_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_014_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_015_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_016_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_017_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_018_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_019_adjudication_template.xlsx",
+    "data\\processed\\adjudication\\annotation_batch_020_adjudication_template.xlsx"
+  ],
+  "output_files": {
+    "csv": "data\\processed\\adjudication\\master_adjudication_template_003_020.csv",
+    "xlsx": "data\\processed\\adjudication\\master_adjudication_template_003_020.xlsx",
+    "report": "outputs\\reports\\10_master_adjudication_template_003_020.md",
+    "summary_json": "outputs\\reports\\10_master_adjudication_template_003_020_summary.json"
+  },
+  "total_rows": 104,
+  "rows_per_batch": {
+    "003": 6,
+    "004": 13,
+    "005": 2,
+    "006": 2,
+    "007": 1,
+    "008": 3,
+    "009": 2,
+    "010": 2,
+    "011": 2,
+    "012": 3,
+    "013": 3,
+    "014": 7,
+    "015": 4,
+    "016": 9,
+    "017": 11,
+    "018": 11,
+    "019": 13,
+    "020": 10
+  },
+  "current_label_distribution": {
+    "netral": 104
+  },
+  "validation_checks": {
+    "total rows equals sum of all template rows": true,
+    "no missing batch_id": true,
+    "no missing sample_id": true,
+    "no duplicate batch_id + sample_id pairs": true,
+    "current_label values are allowed labels": true
+  },
+  "all_validation_checks_passed": true
+}
