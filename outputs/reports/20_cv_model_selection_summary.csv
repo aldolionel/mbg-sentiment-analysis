@@ -1,0 +1,8 @@
+model_name,model_key,source,cv_mean_macro_f1,cv_std_macro_f1,test_macro_f1,notes
+Logistic Regression,logistic_regression,14_modeling_cv_results.csv,0.7022796593804501,0.0189224159905931,0.7150707178275484,Baseline CV mean/std available.
+Tuned SVC Linear Kernel,tuned_svc_linear,15_svm_tuning_all_cv_results.csv,0.6965800402658886,0.037230598795739,0.7248577277256847,Best grid-search CV row per tuned SVM experiment.
+Tuned LinearSVC,tuned_linearsvc,15_svm_tuning_all_cv_results.csv,0.692395187299739,0.0297842984975341,0.7277609525922104,Best grid-search CV row per tuned SVM experiment.
+Tuned SVC RBF Kernel,tuned_svc_rbf,15_svm_tuning_all_cv_results.csv,0.691737765999494,0.0334400235386721,0.7247376469967831,Best grid-search CV row per tuned SVM experiment.
+Linear SVM,linear_svm,14_modeling_cv_results.csv,0.6698004386057437,0.0180140808562743,0.6971243380463393,Baseline CV mean/std available.
+RBF SVM,rbf_svm,14_modeling_cv_results.csv,0.5828847490512142,0.0322997746725211,0.6072411186696901,Baseline CV mean/std available.
+Multinomial Naive Bayes,multinomial_nb,14_modeling_cv_results.csv,0.519558955925861,0.0140851192417483,0.5186525026318308,Baseline CV mean/std available.

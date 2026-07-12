@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-12T22:08:15",
+  "provenance": {
+    "source_citation": "Sultoni, A., Putra, D. A., Wahidah, H. N., Arief, M. M., & Putria, P. J. R. M. (2025). Public Sentiment Analysis and Distribution Optimization MBG. Jurnal Matematika Thales (JMT), 7(1), 35-53.",
+    "dataset_status": "secondary dataset",
+    "license_status": "license not explicitly identified from available local documents"
+  },
+  "negative_error_analysis": {
+    "total_negative_test_rows": 23,
+    "correct_negative_rows": 11,
+    "negative_error_rows": 12,
+    "suggested_error_type_distribution": {
+      "correct_negative": 11,
+      "kritik_implisit": 11,
+      "model_miss": 12,
+      "sarkasme": 2,
+      "campuran": 1,
+      "konteks_kurang": 1
+    }
+  },
+  "validation_sample": {
+    "rows": 200,
+    "label_distribution": {
+      "negatif": 23,
+      "netral": 94,
+      "positif": 83
+    },
+    "random_state": 42
+  },
+  "validation_status": {
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_dataset_provenance_fix_report.md": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\docs\\dataset_provenance.md": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_negative_class_error_analysis_filled.csv": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_negative_class_error_analysis_report.md": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\validation\\validation_sample_200_template.csv": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\validation\\validation_sample_200_template.xlsx": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\validation\\validation_sample_200_ai_prefilled.csv": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_validation_package_report.md": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\scripts\\compute_validation_kappa.py": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_paper_rewrite_plan.md": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_thesis_rewrite_plan.md": true,
+    "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\21_followup_validation_report.md": true
+  }
+}

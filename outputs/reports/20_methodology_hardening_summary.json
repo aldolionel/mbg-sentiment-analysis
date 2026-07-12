@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-07-12T15:34:37",
+  "dataset_summary": {
+    "rows": 1000,
+    "label_distribution": {
+      "negatif": 116,
+      "netral": 472,
+      "positif": 412
+    },
+    "label_percentage": {
+      "negatif": 11.6,
+      "netral": 47.2,
+      "positif": 41.2
+    },
+    "labels_only_allowed": true,
+    "missing_clean_text": 0,
+    "missing_label": 0
+  },
+  "sampling_audit": {
+    "selected_raw_dataset": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\raw\\data crawl mbg (in).xlsx",
+    "selected_raw_dataset_exists": true,
+    "dataset_status": "secondary dataset",
+    "source_provenance_status": "needs citation/source URL/license from dataset owner",
+    "final_labeled_dataset": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\data\\processed\\mbg_labeled_sample_1000.csv",
+    "available_metadata_columns": [
+      "sample_id",
+      "clean_text",
+      "label"
+    ],
+    "sample_id_unique": true,
+    "source_row_number_exists": false,
+    "source_row_number_min": null,
+    "source_row_number_max": null,
+    "sampling_reproducible_from_existing_columns": false,
+    "random_state_detected_in_docs": true,
+    "sampling_strategy_detected_in_docs": true,
+    "manual_provenance_limitation": "Exact original crawler identity, crawl date range, keywords, source URL, and license must be filled manually if not already documented by the dataset owner."
+  },
+  "class_weight_ablation": {
+    "LinearSVC class_weight=None": {
+      "class_weight": null,
+      "metrics": {
+        "accuracy": 0.775,
+        "precision_macro": 0.7408580413297395,
+        "recall_macro": 0.6794292199214897,
+        "f1_macro": 0.6991070672662713,
+        "f1_weighted": 0.7681294727563385
+      },
+      "classification_report": {
+        "negatif": {
+          "precision": 0.6428571428571429,
+          "recall": 0.391304347826087,
+          "f1-score": 0.4864864864864865,
+          "support": 23.0
+        },
+        "netral": {
+          "precision": 0.7547169811320755,
+          "recall": 0.8421052631578947,
+          "f1-score": 0.7960199004975125,
+          "support": 95.0
+        },
+        "positif": {
+          "precision": 0.825,
+          "recall": 0.8048780487804879,
+          "f1-score": 0.8148148148148148,
+          "support": 82.0
+        },
+        "accuracy": 0.775,
+        "macro avg": {
+          "precision": 0.7408580413297395,
+          "recall": 0.6794292199214897,
+          "f1-score": 0.6991070672662713,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.7706691374663073,
+          "recall": 0.775,
+          "f1-score": 0.7681294727563385,
+          "support": 200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          9,
+          10,
+          4
+        ],
+        [
+          5,
+          80,
+          10
+        ],
+        [
+          0,
+          16,
+          66
+        ]
+      ]
+    },
+    "LinearSVC class_weight=\"balanced\"": {
+      "class_weight": "balanced",
+      "metrics": {
+        "accuracy": 0.765,
+        "precision_macro": 0.7203400347480765,
+        "recall_macro": 0.6828393890346227,
+        "f1_macro": 0.6971243380463393,
+        "f1_weighted": 0.7609177096663441
+      },
+      "classification_report": {
+        "negatif": {
+          "precision": 0.5882352941176471,
+          "recall": 0.43478260869565216,
+          "f1-score": 0.5,
+          "support": 23.0
+        },
+        "netral": {
+          "precision": 0.75,
+          "recall": 0.8210526315789474,
+          "f1-score": 0.7839195979899497,
+          "support": 95.0
+        },
+        "positif": {
+          "precision": 0.8227848101265823,
+          "recall": 0.7926829268292683,
+          "f1-score": 0.8074534161490683,
+          "support": 82.0
+        },
+        "accuracy": 0.765,
+        "macro avg": {
+          "precision": 0.7203400347480765,
+          "recall": 0.6828393890346227,
+          "f1-score": 0.6971243380463393,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.7612388309754281,
+          "recall": 0.765,
+          "f1-score": 0.7609177096663441,
+          "support": 200.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          10,
+          10,
+          3
+        ],
+        [
+          6,
+          78,
+          11
+        ],
+        [
+          1,
+          16,
+          65
+        ]
+      ]
+    }
+  },
+  "cv_model_selection_rows": 7,
+  "near_duplicate_summary": {
+    "test_rows_checked": 200,
+    "near_duplicate_threshold": 0.9,
+    "near_duplicate_rows": 0,
+    "near_duplicate_percentage": 0.0
+  },
+  "negative_class_error_summary": {
+    "model_available": true,
+    "warning": null,
+    "negative_test_rows": 23,
+    "negative_correct": 11,
+    "negative_errors": 12
+  },
+  "outputs": {
+    "methodology_hardening_report": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_methodology_hardening_report.md",
+    "methodology_hardening_summary": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_methodology_hardening_summary.json",
+    "class_weight_ablation_results": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_class_weight_ablation_results.csv",
+    "cv_model_selection_summary": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_cv_model_selection_summary.csv",
+    "near_duplicate_train_test_check": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_near_duplicate_train_test_check.csv",
+    "negative_class_error_analysis_candidates": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_negative_class_error_analysis_candidates.csv",
+    "annotation_codebook": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\docs\\annotation_codebook_mbg_sentiment.md",
+    "rewrite_notes": "C:\\Users\\hpdk1\\Documents\\Projects\\mbg-sentiment-analysis\\outputs\\reports\\20_rewrite_notes_after_critical_review.md"
+  }
+}
