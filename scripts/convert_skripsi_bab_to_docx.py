@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 
 from docx import Document
+from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt
 
@@ -39,6 +40,39 @@ def set_base_style(document: Document) -> None:
     style.paragraph_format.space_after = Pt(12)
 
 
+def is_table_separator(line: str) -> bool:
+    """Check whether a line is a Markdown table header separator (e.g. |---|---|)."""
+    stripped = line.strip().strip("|")
+    return bool(stripped) and all(c in "-: " for c in stripped)
+
+
+def parse_table_row(line: str) -> list[str]:
+    """Split a Markdown table row into trimmed cell values."""
+    stripped = line.strip().strip("|")
+    return [cell.strip() for cell in stripped.split("|")]
+
+
+def add_table(document: Document, rows: list[list[str]]) -> None:
+    """Add a Markdown table (header + data rows) to the document."""
+    if not rows:
+        return
+    n_cols = len(rows[0])
+    table = document.add_table(rows=len(rows), cols=n_cols)
+    table.style = "Table Grid"
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    for row_idx, row_values in enumerate(rows):
+        for col_idx in range(n_cols):
+            cell = table.cell(row_idx, col_idx)
+            cell.text = ""
+            paragraph = cell.paragraphs[0]
+            value = row_values[col_idx] if col_idx < len(row_values) else ""
+            add_runs_with_inline_formatting(paragraph, value)
+            if row_idx == 0:
+                for run in paragraph.runs:
+                    run.bold = True
+    document.add_paragraph()
+
+
 def convert(markdown_path: Path, docx_path: Path) -> None:
     """Convert one Markdown chapter file to DOCX."""
     document = Document()
@@ -47,20 +81,37 @@ def convert(markdown_path: Path, docx_path: Path) -> None:
     ordered_list_pattern = re.compile(r"^\d+\.\s+(.*)")
     lines = markdown_path.read_text(encoding="utf-8").splitlines()
 
-    for raw_line in lines:
-        line = raw_line.strip()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         if not line:
+            i += 1
             continue
 
         if line.startswith("# "):
             heading = document.add_heading(level=1)
             heading.alignment = WD_ALIGN_PARAGRAPH.CENTER
             add_runs_with_inline_formatting(heading, line[2:])
+            i += 1
             continue
 
         if line.startswith("## "):
             heading = document.add_heading(level=2)
             add_runs_with_inline_formatting(heading, line[3:])
+            i += 1
+            continue
+
+        if (
+            line.startswith("|")
+            and i + 1 < len(lines)
+            and is_table_separator(lines[i + 1])
+        ):
+            table_rows = [parse_table_row(line)]
+            i += 2
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                table_rows.append(parse_table_row(lines[i]))
+                i += 1
+            add_table(document, table_rows)
             continue
 
         ordered_match = ordered_list_pattern.match(line)
@@ -68,12 +119,14 @@ def convert(markdown_path: Path, docx_path: Path) -> None:
             paragraph = document.add_paragraph(style="List Number")
             paragraph.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             add_runs_with_inline_formatting(paragraph, ordered_match.group(1))
+            i += 1
             continue
 
         paragraph = document.add_paragraph()
         paragraph.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
         paragraph.paragraph_format.first_line_indent = Pt(36)
         add_runs_with_inline_formatting(paragraph, line)
+        i += 1
 
     docx_path.parent.mkdir(parents=True, exist_ok=True)
     document.save(docx_path)

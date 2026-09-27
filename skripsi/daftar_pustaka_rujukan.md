@@ -64,6 +64,21 @@ Daftar ini ditemukan saat pengecekan positioning gap, belum sepenuhnya dibaca le
 - Riwaldi, M. R. F., & Aripin. (2026). Hybrid CNN-BiLSTM untuk Analisis Sentimen Multi-Platform terhadap Insiden Keamanan Pangan Program Makan Bergizi Gratis. *Building of Informatics, Technology and Science (BITS)*, 8(1). https://doi.org/10.47065/bits.v8i1.9896
 - Beberapa skripsi/paper lain ditemukan membahas MBG + SVM di platform YouTube, TikTok, serta perbandingan SVM vs IndoBERT dan SVM+KNN dengan TF-IDF/TF-ABS. Judul dan penulis lengkap belum dicatat di sini; disarankan pencarian manual lanjutan via Google Scholar/Garuda dengan kata kunci "Makan Bergizi Gratis" + "sentimen" + "SVM" sebelum menyusun Bab II secara final.
 
+## F. Rujukan Teori Dasar
+
+12. Cortes, C., & Vapnik, V. (1995). Support-vector networks. *Machine Learning*, 20(3), 273–297. https://doi.org/10.1007/BF00994018
+    - Peran: rujukan dasar teori Support Vector Machine.
+
+13. Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: Synthetic Minority Over-sampling Technique. *Journal of Artificial Intelligence Research*, 16, 321–357. https://doi.org/10.1613/jair.953
+    - Peran: rujukan dasar teori SMOTE.
+
+14. Landis, J. R., & Koch, G. G. (1977). The measurement of observer agreement for categorical data. *Biometrics*, 33(1), 159–174.
+    - Peran: rujukan skala interpretasi nilai Cohen's Kappa.
+
+15. Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to Information Retrieval*. Cambridge University Press.
+    - Peran: rujukan dasar teori TF-IDF.
+    - Catatan: keempat rujukan ini adalah rujukan klasik/landasan teori dasar (bukan hasil pencarian literatur terbaru), lazim disitasi di Bab II tanpa memerlukan verifikasi status Scopus/Sinta karena merupakan rujukan seminal di bidangnya.
+
 ---
 
 **Catatan umum**: dokumen ini adalah working bibliography hasil riset literatur assisted-AI pada tahap ideation. Sebelum masuk ke Bab II/Daftar Pustaka final skripsi, seluruh metadata (terutama nama penulis dan volume/issue yang ditandai "belum terverifikasi") wajib dicek ulang langsung ke halaman jurnal aslinya oleh adik ipar Anda.
