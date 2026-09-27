@@ -1,4 +1,4 @@
-# Batch 018 Local Codex-Style Labeling
+# Batch 017 Local Rule-Based Labeling
 
 ## Scope
 - This script labels one explicitly requested batch only.
@@ -7,11 +7,11 @@
 - Labels should still be manually reviewed before final use.
 
 ## Input/output
-- input batch: `data\processed\annotation_batches\annotation_batch_018.csv`
-- labeled output: `data\processed\annotation_labeled_batches\annotation_batch_018_labeled.csv`
+- input batch: `data\processed\annotation_batches\annotation_batch_017.csv`
+- labeled output: `data\processed\annotation_labeled_batches\annotation_batch_017_labeled.csv`
 - rows: 50
 
 ## Label Counts
-- netral: 28
-- positif: 19
+- netral: 24
+- positif: 23
 - negatif: 3

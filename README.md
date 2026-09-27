@@ -27,7 +27,7 @@ mbg-sentiment-analysis/
 `-- README.md
 ```
 
-Folder `codex_logs/` dan artifact internal workflow diabaikan dari GitHub agar repository tetap bersih sebagai proyek akademik, bukan transcript otomasi.
+Folder `automation_logs/` dan artifact internal workflow diabaikan dari GitHub agar repository tetap bersih sebagai proyek akademik, bukan transcript otomasi.
 
 ## Setup
 

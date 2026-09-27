@@ -87,7 +87,7 @@ def figure_checks() -> list[dict[str, Any]]:
 
 def hygiene_checks(patterns: list[str]) -> list[dict[str, Any]]:
     """Check repository hygiene expectations."""
-    codex_logs_path = PROJECT_ROOT / "codex_logs"
+    automation_logs_path = PROJECT_ROOT / "automation_logs"
     env_path = PROJECT_ROOT / ".env"
     pycache_dirs = [
         path
@@ -102,14 +102,14 @@ def hygiene_checks(patterns: list[str]) -> list[dict[str, Any]]:
 
     return [
         {
-            "name": "codex_logs/ exists locally",
-            "passed": codex_logs_path.exists(),
-            "details": str(codex_logs_path),
+            "name": "automation_logs/ exists locally",
+            "passed": automation_logs_path.exists(),
+            "details": str(automation_logs_path),
         },
         {
-            "name": "codex_logs/ ignored by .gitignore",
-            "passed": has_ignore(patterns, "codex_logs/"),
-            "details": "codex_logs/" if has_ignore(patterns, "codex_logs/") else "not ignored",
+            "name": "automation_logs/ ignored by .gitignore",
+            "passed": has_ignore(patterns, "automation_logs/"),
+            "details": "automation_logs/" if has_ignore(patterns, "automation_logs/") else "not ignored",
         },
         {
             "name": "no .env file present",

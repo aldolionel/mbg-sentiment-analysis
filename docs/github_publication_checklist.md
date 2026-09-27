@@ -6,7 +6,7 @@ Use this checklist before pushing the repository to GitHub.
 
 - [ ] README complete and accurate.
 - [ ] `requirements.txt` available.
-- [ ] `codex_logs/` ignored by `.gitignore`.
+- [ ] `automation_logs/` ignored by `.gitignore`.
 - [ ] Raw data present if intended for publication.
 - [ ] Final labeled dataset present.
 - [ ] Reports present.
