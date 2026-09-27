@@ -90,16 +90,20 @@ def format_heading_run(paragraph, bold: bool = True, size_pt: int = 12) -> None:
         run.font.color.rgb = RGBColor(0, 0, 0)
 
 
-def is_table_separator(line: str) -> bool:
-    """Check whether a line is a Markdown table header separator (e.g. |---|---|)."""
-    stripped = line.strip().strip("|")
-    return bool(stripped) and all(c in "-: " for c in stripped)
-
-
 def parse_table_row(line: str) -> list[str]:
     """Split a Markdown table row into trimmed cell values."""
-    stripped = line.strip().strip("|")
+    stripped = line.strip()
+    if stripped.startswith("|"):
+        stripped = stripped[1:]
+    if stripped.endswith("|"):
+        stripped = stripped[:-1]
     return [cell.strip() for cell in stripped.split("|")]
+
+
+def is_table_separator(line: str) -> bool:
+    """Check whether a line is a Markdown table header separator (e.g. |---|---|)."""
+    cells = parse_table_row(line)
+    return bool(cells) and all(re.fullmatch(r":?-+:?", cell) for cell in cells)
 
 
 def add_table(document: Document, rows: list[list[str]]) -> None:
