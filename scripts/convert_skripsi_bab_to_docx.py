@@ -9,11 +9,19 @@ from pathlib import Path
 from docx import Document
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.shared import Pt
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+from docx.shared import Cm, Pt, RGBColor
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 BOLD_ITALIC_PATTERN = re.compile(r"(\*\*.+?\*\*|\*.+?\*)")
+
+# Margins per Panduan TA SI: kiri 4 cm, kanan/atas/bawah 3 cm.
+MARGIN_LEFT_CM = 4
+MARGIN_RIGHT_CM = 3
+MARGIN_TOP_CM = 3
+MARGIN_BOTTOM_CM = 3
 
 
 def add_runs_with_inline_formatting(paragraph, text: str) -> None:
@@ -38,6 +46,48 @@ def set_base_style(document: Document) -> None:
     style.font.size = Pt(12)
     style.paragraph_format.line_spacing = 1.5
     style.paragraph_format.space_after = Pt(12)
+
+
+def set_page_setup(document: Document) -> None:
+    """Set A4 page size and margins per Panduan TA SI (kiri 4cm, kanan/atas/bawah 3cm)."""
+    section = document.sections[0]
+    section.page_width = Cm(21)
+    section.page_height = Cm(29.7)
+    section.left_margin = Cm(MARGIN_LEFT_CM)
+    section.right_margin = Cm(MARGIN_RIGHT_CM)
+    section.top_margin = Cm(MARGIN_TOP_CM)
+    section.bottom_margin = Cm(MARGIN_BOTTOM_CM)
+
+
+def add_page_number_footer(document: Document) -> None:
+    """Add a bottom-right Arabic page number field to the footer (Bab content pages)."""
+    section = document.sections[0]
+    footer_paragraph = section.footer.paragraphs[0]
+    footer_paragraph.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    run = footer_paragraph.add_run()
+    run.font.name = "Times New Roman"
+    run.font.size = Pt(12)
+
+    fld_begin = OxmlElement("w:fldChar")
+    fld_begin.set(qn("w:fldCharType"), "begin")
+    instr_text = OxmlElement("w:instrText")
+    instr_text.set(qn("xml:space"), "preserve")
+    instr_text.text = "PAGE"
+    fld_end = OxmlElement("w:fldChar")
+    fld_end.set(qn("w:fldCharType"), "end")
+
+    run._r.append(fld_begin)
+    run._r.append(instr_text)
+    run._r.append(fld_end)
+
+
+def format_heading_run(paragraph, bold: bool = True, size_pt: int = 12) -> None:
+    """Force Times New Roman on every run of a heading paragraph, overriding the style theme font."""
+    for run in paragraph.runs:
+        run.font.name = "Times New Roman"
+        run.font.size = Pt(size_pt)
+        run.font.bold = bold
+        run.font.color.rgb = RGBColor(0, 0, 0)
 
 
 def is_table_separator(line: str) -> bool:
@@ -77,6 +127,8 @@ def convert(markdown_path: Path, docx_path: Path) -> None:
     """Convert one Markdown chapter file to DOCX."""
     document = Document()
     set_base_style(document)
+    set_page_setup(document)
+    add_page_number_footer(document)
 
     ordered_list_pattern = re.compile(r"^\d+\.\s+(.*)")
     lines = markdown_path.read_text(encoding="utf-8").splitlines()
@@ -89,15 +141,20 @@ def convert(markdown_path: Path, docx_path: Path) -> None:
             continue
 
         if line.startswith("# "):
+            # BAB heading: huruf kapital, tebal, posisi tengah, Times New Roman 12pt.
             heading = document.add_heading(level=1)
             heading.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            add_runs_with_inline_formatting(heading, line[2:])
+            add_runs_with_inline_formatting(heading, line[2:].upper())
+            format_heading_run(heading)
             i += 1
             continue
 
         if line.startswith("## "):
+            # Subbab heading: title case, rata kiri, tebal, Times New Roman 12pt.
             heading = document.add_heading(level=2)
+            heading.alignment = WD_ALIGN_PARAGRAPH.LEFT
             add_runs_with_inline_formatting(heading, line[3:])
+            format_heading_run(heading)
             i += 1
             continue
 
@@ -124,7 +181,6 @@ def convert(markdown_path: Path, docx_path: Path) -> None:
 
         paragraph = document.add_paragraph()
         paragraph.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-        paragraph.paragraph_format.first_line_indent = Pt(36)
         add_runs_with_inline_formatting(paragraph, line)
         i += 1
 
