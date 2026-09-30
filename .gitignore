@@ -33,3 +33,6 @@ automation_logs/
 # Local binary/temp artifacts
 *.pkl
 *.tmp
+
+# Private annotation keys (must not be shown to annotators)
+*.private.csv
