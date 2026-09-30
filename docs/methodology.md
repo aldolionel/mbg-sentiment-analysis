@@ -41,13 +41,16 @@ Label sentimen terdiri dari tiga kelas:
 - `negatif`
 - `netral`
 
-Dataset berlabel disiapkan melalui workflow batch. Label awal dibuat dengan bantuan AI, kemudian diproses melalui adjudication/manual review untuk memperbaiki kasus yang ambigu atau tidak konsisten.
+Dataset berlabel disiapkan melalui workflow batch (20 batch, masing-masing 50 baris). Label awal dibuat secara otomatis:
 
-Penting: repository ini tidak mengklaim bahwa semua label dibuat sepenuhnya manual. Formulasi yang digunakan adalah **AI-assisted labeling dengan adjudication/manual review**.
+- batch 001 (50 baris): dilabeli oleh LLM melalui prompt di `data/processed/annotation_prompts/`;
+- batch 002-020 (950 baris): dilabeli oleh skrip pencocokan kata kunci `scripts/label_batch_rule_based.py`.
 
-## 5. AI-Assisted Adjudication
+Penting: label tidak dibuat secara manual. Formulasi yang digunakan adalah **pelabelan otomatis dengan tinjauan ulang berbantuan AI**, dan belum ada acuan (*gold standard*) hasil anotasi manusia independen.
 
-Adjudication digunakan untuk meninjau label awal dan memastikan label akhir lebih konsisten dengan guideline anotasi. Catatan adjudication disimpan pada artifact terproses agar proses pelabelan tetap transparan.
+## 5. Tinjauan Ulang Baris Ambigu
+
+Baris yang teksnya sangat pendek atau yang catatan pelabelannya menunjukkan konteks ambigu ditandai oleh `scripts/create_semantic_review.py` untuk ditinjau ulang (138 dari 1.000 baris; hampir seluruhnya berlabel awal netral). Peninjauan tersebut sebagian besar dilakukan dengan bantuan AI dan disetujui peneliti, sedangkan peninjauan langsung oleh peneliti hanya mencakup sebagian kecil sampel. Sebanyak 862 baris yang tidak ditandai tidak ditinjau, sehingga label akhirnya sama dengan label awal. Catatan tinjauan disimpan pada artifact terproses di `data/processed/adjudication/`. Kesepakatan antara label awal dan label akhir tidak boleh ditafsirkan sebagai kesepakatan dengan anotator manusia.
 
 Dokumen terkait:
 
@@ -104,7 +107,7 @@ Macro F1 diprioritaskan karena distribusi label tidak seimbang. Accuracy tetap d
 
 Keterbatasan utama:
 
-- label bersifat AI-assisted dengan adjudication/manual review;
+- label bersifat otomatis dengan tinjauan ulang berbantuan AI, dan belum divalidasi terhadap anotasi manusia independen;
 - dataset final berjumlah 1.000 sampel dari crawl media sosial yang lebih besar;
 - kelas `negatif` merupakan kelas minoritas;
 - performa kelas `negatif` masih lebih rendah dibandingkan performa keseluruhan;

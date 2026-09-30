@@ -6,7 +6,7 @@ Dokumen ini merangkum hasil akhir pemodelan untuk kebutuhan penulisan skripsi. R
 
 Dataset final yang digunakan pada tahap pemodelan adalah `data/processed/mbg_labeled_sample_1000.csv` dengan total 1.000 data berlabel. Dataset ini merupakan sampel dari hasil crawl media sosial terkait Program Makan Bergizi Gratis (MBG).
 
-Label sentimen disusun melalui AI-assisted labeling dengan adjudication/manual review. Oleh karena itu, hasil penelitian harus dibaca sebagai analisis terhadap sampel berlabel, bukan sebagai klaim universal mengenai opini publik.
+Label sentimen disusun melalui pelabelan otomatis dengan tinjauan ulang berbantuan AI pada baris yang ditandai ambigu, dan belum divalidasi terhadap anotasi manusia independen. Oleh karena itu, seluruh metrik di bawah dihitung terhadap label otomatis tersebut dan belum mencerminkan akurasi terhadap sentimen sebenarnya. Hasil penelitian harus dibaca sebagai analisis terhadap sampel berlabel, bukan sebagai klaim universal mengenai opini publik.
 
 ## Distribusi Label
 
