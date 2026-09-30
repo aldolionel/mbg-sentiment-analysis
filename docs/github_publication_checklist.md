@@ -24,8 +24,8 @@ Use this checklist before pushing the repository to GitHub.
 
 ## Academic Transparency
 
-- [ ] Methodology explains AI-assisted labeling with adjudication/manual review.
-- [ ] README does not claim all labels are purely manual.
+- [ ] Methodology explains automatic labeling with AI-assisted review of flagged rows.
+- [ ] README and docs do not claim manual adjudication or a human gold standard.
 - [ ] Results are framed as analysis of sampled data, not universal public opinion.
 - [ ] Limitations mention class imbalance and negative-class performance.
 

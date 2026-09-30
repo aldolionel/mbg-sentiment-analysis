@@ -2,7 +2,7 @@
 
 Repository ini berisi proyek penelitian analisis sentimen teks media sosial terkait Program Makan Bergizi Gratis (MBG). Pipeline penelitian mencakup audit data, preprocessing teks, penyusunan sampel berlabel, evaluasi model baseline, tuning model SVM, serta pembuatan laporan dan visualisasi hasil.
 
-Model akhir yang direkomendasikan untuk pembahasan pemodelan adalah **TF-IDF + Tuned LinearSVC**. Dataset yang digunakan pada tahap akhir adalah sampel crawl media sosial berjumlah 1.000 baris. Label sentimen disusun melalui **AI-assisted labeling dengan adjudication/manual review**, sehingga proses pelabelan tidak diklaim sebagai sepenuhnya manual.
+Model akhir yang direkomendasikan untuk pembahasan pemodelan adalah **TF-IDF + Tuned LinearSVC**. Dataset yang digunakan pada tahap akhir adalah sampel crawl media sosial berjumlah 1.000 baris. Label sentimen disusun melalui **pelabelan otomatis** (batch pertama oleh LLM, sisanya oleh skrip kata kunci) dengan **tinjauan ulang berbantuan AI** pada baris yang ditandai ambigu. Peninjauan langsung oleh manusia sangat terbatas dan belum ada acuan (*gold standard*) hasil anotasi manusia independen, sehingga label tidak boleh dianggap sebagai label manual.
 
 ## Struktur Repository
 
@@ -60,7 +60,7 @@ python scripts/create_final_results_visualizations.py
 python scripts/check_repo_publication_ready.py
 ```
 
-Catatan: beberapa tahap labeling/adjudication sudah tersedia sebagai artifact di `data/processed/` dan `outputs/reports/`. Untuk reproduksi penuh dari nol, proses labeling dan adjudication perlu dilakukan sesuai guideline di `docs/`.
+Catatan: hasil pelabelan otomatis dan tinjauan ulang sudah tersedia sebagai artifact di `data/processed/` dan `outputs/reports/`. Untuk reproduksi penuh dari nol, proses pelabelan dan tinjauan ulang perlu dilakukan sesuai guideline di `docs/`.
 
 Notebook dapat dieksekusi menggunakan runner:
 
@@ -88,7 +88,8 @@ Macro F1 digunakan sebagai metrik utama karena distribusi label tidak seimbang, 
 
 ## Important Limitations
 
-- Label bersifat AI-assisted dengan adjudication/manual review, bukan sepenuhnya manual.
+- Label bersifat otomatis dengan tinjauan ulang berbantuan AI, bukan label manual. Hanya 138 dari 1.000 baris yang ditandai untuk ditinjau, sebagian besar tinjauan dibantu AI, dan belum ada validasi oleh anotator manusia independen.
+- Metrik model dihitung terhadap label otomatis tersebut, sehingga belum mencerminkan akurasi terhadap sentimen sebenarnya.
 - Kelas `negatif` merupakan kelas minoritas, sehingga performa pada kelas ini masih perlu dibahas sebagai keterbatasan.
 - Hasil penelitian mendeskripsikan sampel data berlabel yang digunakan, bukan opini publik universal.
 - Dataset berjumlah 1.000 sampel dari crawl media sosial yang lebih besar.
