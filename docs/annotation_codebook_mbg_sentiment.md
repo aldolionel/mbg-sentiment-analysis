@@ -29,10 +29,10 @@ Tambahkan contoh hanya dari baris dataset aktual atau contoh yang sudah diizinka
 | <contoh aktual dari dataset> | positif/negatif/netral | <alasan singkat> |
 
 ## Transparent Labeling Workflow
-1. AI-assisted initial labeling digunakan untuk membantu pemberian label awal.
-2. Semantic review dilakukan untuk meninjau kasus ambigu atau berpotensi salah.
-3. Adjudication/manual review dilakukan untuk menetapkan label akhir pada kasus yang perlu koreksi.
-4. Label saat ini tidak boleh disebut pure manual gold standard kecuali divalidasi ulang melalui studi gold-label terpisah.
+1. Label awal dibuat secara otomatis: batch 001 oleh LLM, batch 002-020 oleh skrip kata kunci.
+2. Semantic review menandai kasus ambigu atau berpotensi salah (teks sangat pendek atau catatan pelabelan yang menunjukkan konteks ambigu).
+3. Baris yang ditandai ditinjau ulang sebagian besar dengan bantuan AI dan disetujui peneliti; peninjauan langsung oleh manusia sangat terbatas, dan baris yang tidak ditandai tidak ditinjau.
+4. Label saat ini tidak boleh disebut manual maupun gold standard kecuali divalidasi ulang melalui studi gold-label terpisah oleh anotator manusia independen.
 
 ## Future Validation Plan
 - Ambil 150-200 sampel untuk gold validation.

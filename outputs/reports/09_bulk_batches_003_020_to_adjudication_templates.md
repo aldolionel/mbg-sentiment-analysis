@@ -13,7 +13,7 @@ No adjudication import was run for batches 003-020. No adjudicated files were cr
 For each batch from 003 through 020:
 
 ```powershell
-python scripts/label_batch_with_codex.py --batch-id <batch>
+python scripts/label_batch_rule_based.py --batch-id <batch>
 python scripts/validate_labeled_batch.py --batch-id <batch>
 python scripts/create_semantic_review.py --batch-id <batch>
 python scripts/create_adjudication_template.py --batch-id <batch>
@@ -62,7 +62,7 @@ python scripts/create_adjudication_template.py --batch-id <batch>
 For each batch 003-020:
 
 - `data/processed/annotation_labeled_batches/annotation_batch_<batch>_labeled.csv`
-- `outputs/reports/04_batch_<batch>_labeling_with_codex.md`
+- `outputs/reports/04_batch_<batch>_labeling_rule_based.md`
 - `outputs/reports/04_batch_<batch>_validation.md`
 - `data/processed/annotation_reviews/annotation_batch_<batch>_semantic_review.csv`
 - `outputs/reports/05_batch_<batch>_semantic_review.md`

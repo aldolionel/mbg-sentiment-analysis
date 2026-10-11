@@ -8,16 +8,16 @@ No remaining batches were labeled automatically. Finalized batch 001 was not cha
 
 ## Generic Scripts
 
-### 1. Local Codex-Style Labeling Aid
+### 1. Local Rule-Based Labeling Aid
 
 ```powershell
-python scripts/label_batch_with_codex.py --batch-id 002
+python scripts/label_batch_rule_based.py --batch-id 002
 ```
 
 Creates:
 
 - `data/processed/annotation_labeled_batches/annotation_batch_002_labeled.csv`
-- `outputs/reports/04_batch_002_labeling_with_codex.md`
+- `outputs/reports/04_batch_002_labeling_rule_based.md`
 
 Notes:
 
@@ -75,7 +75,7 @@ Creates:
 
 ## Recommended Batch-by-Batch Flow
 
-1. Run `label_batch_with_codex.py` for one batch.
+1. Run `label_batch_rule_based.py` for one batch.
 2. Run `validate_labeled_batch.py`.
 3. Run `create_semantic_review.py`.
 4. Review rows marked `review`.

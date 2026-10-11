@@ -1,4 +1,4 @@
-"""Create local Codex-style pilot labels for a single annotation batch.
+"""Create local rule-based pilot labels for a single annotation batch.
 
 This script does not call external APIs. It applies a conservative local
 rule-based labeling aid to one explicitly requested batch.
@@ -65,7 +65,7 @@ def default_paths(batch_id: str) -> dict[str, Path]:
         "labeled": Path(
             f"data/processed/annotation_labeled_batches/annotation_batch_{tag}_labeled.csv"
         ),
-        "report": Path(f"outputs/reports/04_batch_{tag}_labeling_with_codex.md"),
+        "report": Path(f"outputs/reports/04_batch_{tag}_labeling_rule_based.md"),
     }
 
 
@@ -118,7 +118,7 @@ def write_report(
     report_path.parent.mkdir(parents=True, exist_ok=True)
     counts = labeled_df["label"].value_counts().to_dict()
     lines = [
-        f"# Batch {batch_tag(batch_id)} Local Codex-Style Labeling",
+        f"# Batch {batch_tag(batch_id)} Local Rule-Based Labeling",
         "",
         "## Scope",
         "- This script labels one explicitly requested batch only.",

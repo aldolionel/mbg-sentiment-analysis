@@ -26,11 +26,13 @@ desktop.ini
 .idea/
 
 # Logs
-codex_logs/
+automation_logs/
 .agents/
-.codex/
 *.log
 
 # Local binary/temp artifacts
 *.pkl
 *.tmp
+
+# Private annotation keys (must not be shown to annotators)
+*.private.csv

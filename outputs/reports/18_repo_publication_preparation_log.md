@@ -33,7 +33,7 @@ Status: PASS
 The readiness checker confirmed:
 
 - required public documentation files are present;
-- `codex_logs/` exists locally and is ignored by `.gitignore`;
+- `automation_logs/` exists locally and is ignored by `.gitignore`;
 - no `.env` file is present;
 - cache and notebook checkpoint patterns are ignored;
 - final labeled dataset has 1,000 rows;

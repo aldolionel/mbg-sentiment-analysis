@@ -1,4 +1,4 @@
-# Batch 015 Local Codex-Style Labeling
+# Batch 015 Local Rule-Based Labeling
 
 ## Scope
 - This script labels one explicitly requested batch only.

@@ -28,9 +28,9 @@ python scripts/prepare_interim_dataset.py
 python scripts/create_labeling_dataset.py
 ```
 
-## 5. Labeling and Adjudication Artifacts
+## 5. Labeling and Review Artifacts
 
-Tahap labeling/adjudication adalah proses panjang dan sebagian besar sudah tersedia sebagai artifact di `data/processed/annotation_labeled_batches/`, `data/processed/adjudication/`, dan `data/processed/mbg_labeled_sample_1000.csv`.
+Label awal dibuat secara otomatis (batch 001 oleh LLM, batch 002-020 oleh skrip kata kunci) dan baris yang ditandai ambigu ditinjau ulang dengan bantuan AI; ini bukan anotasi manusia. Tahap ini sebagian besar sudah tersedia sebagai artifact di `data/processed/annotation_labeled_batches/`, `data/processed/adjudication/`, dan `data/processed/mbg_labeled_sample_1000.csv`.
 
 Jika ingin mereproduksi dari awal, ikuti guideline:
 
